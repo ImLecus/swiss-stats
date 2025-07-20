@@ -2,27 +2,26 @@ import "../styles/map.css"
 import Plot from "react-plotly.js";
 import {useState} from "react";
 import MapControls from "./MapControls.tsx";
+import cantons from "../assets/cantons.json";
 
 const DEFAULT_ZOOM = 7.5;
 
 function Map() {
     const [zoom, setZoom] = useState(DEFAULT_ZOOM);
     return (
-        <div>
+        <div id="map">
             <Plot
                 data={[
                     {
-                        type: "scattermapbox",
-                        lat: [46.948, 47.3769, 46.2044], // Ejemplo: Berna, Zúrich, Ginebra
-                        lon: [7.4474, 8.5417, 6.1432],
-                        mode: "markers",
-                        marker: { size: 14, color: "#DA291C" },
-                        text: ["Berna", "Zúrich", "Ginebra"],
-                        hoverinfo: "text",
+                        type: "choroplethmap",
+                        geojson: cantons,
+                        locations: ["ZH", "GE", "BE"],
+                        z: [6200, 6400, 5900],
+                        featureidkey: "id"
                     },
                 ]}
                 layout={{
-                    mapbox: {
+                    map: {
                         style: "open-street-map",
                         center: { lat: 46.8, lon: 8 },
                         zoom: zoom,

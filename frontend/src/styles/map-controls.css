@@ -1,0 +1,30 @@
+
+#map-controls {
+    display: flex;
+
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#map-controls button {
+    background-color: #fff;
+    outline: none;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+#map-controls button:first-child {
+    border-radius: 8px 0 0 8px !important;
+}
+
+#map-controls button:last-child {
+    border-radius: 0 8px 8px 0 !important;
+}
+
+#map-controls button:hover {
+    outline: none;
+    border: none;
+    background-color: #f0efeb;
+}

@@ -11,7 +11,7 @@
 }
 
 #map-controls button {
-    background-color: #fff;
+    background-color: var(--bg-color);
     outline: none;
     border: none;
     transition: all 0.2s ease-in-out;
@@ -28,5 +28,5 @@
 #map-controls button:hover {
     outline: none;
     border: none;
-    background-color: #f0efeb;
+    background-color: var(--bg-color-hover);
 }

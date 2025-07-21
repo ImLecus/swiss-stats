@@ -17,7 +17,12 @@ function Map() {
                         geojson: cantons,
                         locations: ["ZH", "GE", "BE"],
                         z: [6200, 6400, 5900],
-                        featureidkey: "id"
+                        featureidkey: "id",
+                        colorscale: [
+                            [0, "#ff948ebb"],
+                            [0.5, "#DA291Cbb"],
+                            [1, "#af0f24bb"]
+                        ]
                     },
                 ]}
                 layout={{

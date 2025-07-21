@@ -6,7 +6,7 @@
     width: 20vw;
 
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-    background-color: #fff;
+    background-color: var(--bg-color);
 
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
 }
 
 #sidebar-category-header {
-    background-color: #f0efeb;
+    background-color: var(--bg-color-hover);
     padding: 5px 0;
 }
 
@@ -33,14 +33,14 @@
 #sidebar-search {
     margin: 20px;
     padding: 10px;
-    background-color: #f0efeb;
+    background-color: var(--bg-color-hover);
     border: none;
     outline: none;
     border-radius: 8px;
 }
 
 .sidebar-element {
-    background-color: #fff;
+    background-color: var(--bg-color);
     font-size: 12px;
     width: 100%;
     text-align: center;
@@ -49,5 +49,5 @@
 }
 
 .sidebar-element:hover {
-    background-color: #f0efebaa;
+    background-color: var(--bg-color-hover);
 }

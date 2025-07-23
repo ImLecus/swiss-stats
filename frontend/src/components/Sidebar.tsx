@@ -1,19 +1,20 @@
 import "../styles/sidebar.css"
-import SidebarCategory from "./SidebarCategory.tsx";
+import KantonButton from "./CantonButton.tsx";
 
 function Sidebar() {
     return (
         <aside id="sidebar">
             <input type="search" placeholder="Search Swiss statistics..." id="sidebar-search" />
-            <SidebarCategory name="Economy"
-                             options={ [
-                                 {name: "Average Income", value: 0},
-                                 {name: "Minimum Income", value: 1}
-                             ]} />
-            <SidebarCategory name="Longevity"
-                             options={ [
-                                 {name: "Average Lifespan", value: 2}
-                             ]} />
+            <KantonButton name="Aargau"/>
+            <KantonButton name="Bern"/>
+            <KantonButton name="Basilea"/>
+            <KantonButton name="Genève"/>
+            <KantonButton name="Jura"/>
+            <KantonButton name="Luzern"/>
+            <KantonButton name="Ticino"/>
+            <KantonButton name="Vaud"/>
+            <KantonButton name="Zürich"/>
+            <KantonButton name="Zug"/>
         </aside>
     );
 }

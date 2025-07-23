@@ -1,0 +1,29 @@
+.canton-button {
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color);
+    height: 120px;
+    min-height: 120px;
+}
+
+.canton-button:hover {
+    cursor: pointer;
+    background-color: var(--bg-color-hover);
+}
+.canton-button:hover img {
+    filter: grayscale(1);
+    transform: scale(1.1);
+    max-height: calc(90px / 1.1);
+}
+
+.canton-button img {
+    aspect-ratio: 5 / 4;
+    height: 90px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.canton-button h3 {
+    margin: auto auto auto 20px;
+}

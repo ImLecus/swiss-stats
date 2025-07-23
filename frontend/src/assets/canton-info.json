@@ -1,0 +1,25 @@
+{
+  "ZH": {
+    "name" : "Zürich",
+    "population": 1600000,
+    "language": "swiss-german",
+    "content": [
+      {
+        "type": "text",
+        "label": "Lorem ipsum dolor sit amet consectetur adipiscing elit auctor dis, porta sapien sollicitudin vulputate ac sodales felis himenaeos. At lacus justo imperdiet eu morbi montes est molestie id libero primis hendrerit luctus etiam, massa lacinia habitant felis vitae sodales nam conubia litora dictumst orci netus nec. Habitasse odio quam tincidunt malesuada fusce elementum morbi libero gravida molestie nam, duis cubilia id cras venenatis et mauris conubia imperdiet erat viverra, faucibus taciti turpis arcu class porta aptent facilisi magna suspendisse.\n"
+      },
+      {
+        "type": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "label": "Porta dui magna mattis nisl turpis sapien id viverra taciti mi, pharetra sociosqu ut varius mauris facilisis maecenas egestas posuere. Cubilia a gravida eros diam massa posuere dui curae, erat condimentum est placerat tortor ut malesuada. Per rutrum dis mauris leo pellentesque facilisi nisi ultrices donec, vitae odio porta quisque eu mollis dictum commodo class magnis, sed pretium metus ornare orci quis torquent eros. Donec cum praesent habitant etiam facilisis metus curae, dui dictumst feugiat rutrum morbi suspendisse congue ridiculus, lacus vestibulum elementum laoreet semper pharetra.\n"
+      },
+      {
+        "type": "image",
+        "src": "https://t4.ftcdn.net/jpg/00/60/07/09/360_F_60070989_mN5TNSCuKw0hmCbE2l2QS2AMiV6808pc.jpg"
+      }
+    ]
+  }
+}

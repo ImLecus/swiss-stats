@@ -2,7 +2,7 @@ import "../styles/map.css"
 import {useEffect, useRef, useState} from "react";
 import MapControls from "./MapControls.tsx";
 import cantons from "../assets/cantons.json";
-import L, {GeoJSON} from "leaflet";
+import L from "leaflet";
 
 const DEFAULT_ZOOM = 7.5;
 

@@ -11,7 +11,7 @@
   -moz-osx-font-smoothing: grayscale;
 
   --bg-color: #fff;
-  --bg-color-hover: #f0efeb;
+  --bg-color-hover: #f4f4f4;
   --text-color: #242424;
 
   color: var(--text-color);

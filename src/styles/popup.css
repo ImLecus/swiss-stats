@@ -1,0 +1,25 @@
+
+.popup {
+    display: flex;
+    justify-content: space-between;
+    min-width: 120px;
+    padding: 0;
+}
+
+.popup img {
+    width: 50%;
+    min-width: 75px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.popup b {
+    font-size: 16px;
+    margin: auto 0;
+}
+
+.leaflet-popup-content-wrapper {
+    padding: 1px !important;
+    margin: 0;
+    border-radius: 8px;
+}

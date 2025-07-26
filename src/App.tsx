@@ -8,7 +8,7 @@ const App = () => {
     const [selected, setSelected] = useState<string>("");
     const [visible, setVisible] = useState<boolean>(false);
     return (
-        <InfoContext.Provider value={{selected, setSelected, setVisible}}>
+        <InfoContext.Provider value={{selected, visible, setSelected, setVisible}}>
             <Sidebar/>
             <SidebarDetails visible={visible} canton={selected ?? ""} />
             <Map/>

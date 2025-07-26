@@ -22,5 +22,18 @@
         "src": "https://t4.ftcdn.net/jpg/00/60/07/09/360_F_60070989_mN5TNSCuKw0hmCbE2l2QS2AMiV6808pc.jpg"
       }
     ]
+  },
+
+  "AG": {
+    "name" : "Aargau",
+    "population": 735619,
+    "language": "swiss-german",
+    "header": "https://t4.ftcdn.net/jpg/00/60/07/09/360_F_60070989_mN5TNSCuKw0hmCbE2l2QS2AMiV6808pc.jpg",
+    "content": [
+      {
+        "type": "text",
+        "label": "Aargau is characterized by its pleasant green landscape, with a rural and historical atmosphere located in northern Switzerland along the German border. It is crossed by several rivers including the Rhine, Aare, Limmat, and Reuss, and contains lakes such as Lake Hallwil. Its capital is Aarau, a medieval city with notable frescoes and museums."
+      }
+    ]
   }
 }

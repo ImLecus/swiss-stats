@@ -2,11 +2,7 @@ import "../styles/sidebar.css"
 import CantonButton from "./CantonButton.tsx";
 import cantons from "../assets/canton-info.json"
 import {useState} from "react";
-import type Canton from "../interfaces/Canton.ts";
-
-const getCanton = (name: string) : Canton => (
-    cantons[name as keyof typeof cantons] as Canton
-)
+import { getCanton } from "../interfaces/Canton.ts";
 
 function Sidebar() {
     const [search, setSearch] = useState("");

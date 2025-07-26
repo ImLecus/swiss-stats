@@ -2,15 +2,42 @@ import "../styles/map.css"
 import {useEffect, useRef, useState} from "react";
 import MapControls from "./MapControls.tsx";
 import cantons from "../assets/cantons.json";
-import L from "leaflet";
+import L, {GeoJSON, type LeafletMouseEvent} from "leaflet";
+import {useContext} from "react";
+import {InfoContext} from "../Context.tsx";
 
 const DEFAULT_ZOOM = 7.5;
 
+type Feature = L.Layer & {feature: GeoJSON.Feature};
+
 function Map() {
     const [zoom, setZoom] = useState(DEFAULT_ZOOM);
+
     const mapRef = useRef<L.Map | null>(null);
     const mapContainerRef = useRef<HTMLDivElement>(null);
     const geoJsonRef = useRef<L.GeoJSON | null>(null);
+    const selected = useRef<string>("");
+
+    const context = useContext(InfoContext);
+
+    function setStyle(layer: L.Layer, feature: GeoJSON.Feature, style: L.PathOptions){
+        if(feature.id === selected.current){
+            (layer as L.Path).setStyle({
+                fillColor: "#DA291C",
+            });
+        }
+        else {
+            (layer as L.Path).setStyle(style);
+        }
+    }
+
+    const defaultStyle = () => ({
+        fillColor: "#afafaf",
+        weight: 1,
+        opacity: 1,
+        color: "#333333",
+        fillOpacity: 0.5,
+    })
 
     useEffect(() => {
         if (mapRef.current || !mapContainerRef.current) return;
@@ -21,40 +48,23 @@ function Map() {
             attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"
         }).addTo(map);
 
-        const defaultStyle = () => ({
-            fillColor: "#afafaf",
-            weight: 1,
-            opacity: 1,
-            color: "#333333",
-            fillOpacity: 0.5,
-        })
-
-        const hoverStyle = () => ({
-            fillColor: "#9f9f9f",
-        })
-
-        function highlightFeature(e: L.LeafletMouseEvent) {
-            const layer = e.target as L.Path;
-            layer.setStyle(hoverStyle());
-            layer.bringToFront();
-        }
-
-        function resetHighlight(e: L.LeafletMouseEvent) {
-            const layer = e.target as L.Path;
-            geoJsonRef.current?.resetStyle(layer);
-        }
-
         function onEachFeature(feature: GeoJSON.Feature, layer: L.Layer) {
-            if(feature.properties?.name){
-                const popup = L.popup().setContent(`<b>${feature.properties.name}</b>`);
+            if(feature.id !== context?.selected){
+                const popup = L.popup().setContent(`<b>${feature.properties?.name}</b>`);
+                popup.options.closeButton = false;
                 (layer as L.Path)
                     .on("mouseover", (e: L.LeafletMouseEvent) => {
                     popup.setLatLng(e.latlng).openOn(map);
-                    highlightFeature(e);
+                    setStyle(e.target, feature, {fillColor: "#9f9f9f"});
                 })
                     .on("mouseout", (e: L.LeafletMouseEvent) => {
-                    resetHighlight(e);
+                    setStyle(e.target, feature, defaultStyle());
                     popup.close();
+                })
+                    .on("click", () => {
+                        context?.setSelected(feature.id as string);
+                        context?.setVisible(true);
+                        selected.current = feature.id as string;
                 });
             }
         }
@@ -71,6 +81,17 @@ function Map() {
             }
         };
     }, []);
+
+
+    useEffect(() => {
+        if (!geoJsonRef.current) return;
+        geoJsonRef.current.eachLayer(layer => {
+            const feature = (layer as Feature).feature;
+            selected.current = context?.selected ?? "";
+            setStyle(layer, feature, defaultStyle());
+        })
+
+    }, [context?.selected]);
 
     return (
         <div id="map" ref={mapContainerRef}>

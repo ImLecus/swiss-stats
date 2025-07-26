@@ -11,31 +11,42 @@
     display: flex;
     flex-direction: column;
 
-    overflow-y: scroll;
     z-index: 2;
+    transition: all 0.2s ease-in;
 }
 
+#sidebar-info::-webkit-scrollbar-button {
+    display: none;
+}
 #sidebar-info {
     width: 40vw;
+    overflow-y: scroll;
 }
 
-#sidebar-info img {
+#sidebar-info-header {
     aspect-ratio: 16 / 9;
+    background-color: var(--bg-color-hover);
 }
 
-#sidebar-info > div {
+#sidebar-info .sidebar-content {
     padding: 20px 30px 20px 50px;
 }
 
-#sidebar-info a {
+#sidebar-info .sidebar-return {
+    display: flex;
     position: absolute;
     margin: 15px 15px;
-    color: var(--bg-color);
 }
 
-#sidebar-info a:hover {
+#sidebar-info .sidebar-return:hover {
     cursor: pointer;
+}
 
+#sidebar-info a {
+    color: var(--bg-color);
+    font-weight: bold;
+    margin-left: 10px;
+    text-shadow:  0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 #sidebar-search {

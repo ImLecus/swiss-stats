@@ -3,10 +3,11 @@
     "name" : "Zürich",
     "population": 1600000,
     "language": "swiss-german",
+    "header": "https://t4.ftcdn.net/jpg/00/60/07/09/360_F_60070989_mN5TNSCuKw0hmCbE2l2QS2AMiV6808pc.jpg",
     "content": [
       {
         "type": "text",
-        "label": "Lorem ipsum dolor sit amet consectetur adipiscing elit auctor dis, porta sapien sollicitudin vulputate ac sodales felis himenaeos. At lacus justo imperdiet eu morbi montes est molestie id libero primis hendrerit luctus etiam, massa lacinia habitant felis vitae sodales nam conubia litora dictumst orci netus nec. Habitasse odio quam tincidunt malesuada fusce elementum morbi libero gravida molestie nam, duis cubilia id cras venenatis et mauris conubia imperdiet erat viverra, faucibus taciti turpis arcu class porta aptent facilisi magna suspendisse.\n"
+        "label": "The canton of Zurich is one of Switzerland’s key centers, renowned for its strong economy as well as its rich history and natural diversity. Located in the northeast of the country, this canton covers an area of approximately 1,729 km² and is home to over 1.5 million inhabitants, making it the most populous in the Swiss Confederation. Its territory features a varied landscape including gentle hills, fertile valleys, and mountains, with the iconic Lake Zurich serving as a natural jewel offering idyllic scenery and numerous recreational opportunities.\n\nThe capital city, also called Zurich, is a global cultural and financial hub where historic architecture blends with a vibrant urban life. Additionally, the canton has witnessed pivotal historical milestones, from Neolithic settlements to being the epicenter of the Protestant Reformation led by Ulrich Zwingli in the 16th century. Its balance of modernity, tradition, cultural richness, and preserved nature make the canton of Zurich an essential destination for those seeking to experience the essence of Switzerland in all its breadth."
       },
       {
         "type": "heading",

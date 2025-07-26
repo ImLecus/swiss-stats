@@ -1,20 +1,24 @@
 import "../styles/sidebar.css"
-import KantonButton from "./CantonButton.tsx";
+import CantonButton from "./CantonButton.tsx";
+import cantons from "../assets/canton-info.json"
+import {useState} from "react";
+import type Canton from "../interfaces/Canton.ts";
+
+const getCanton = (name: string) : Canton => (
+    cantons[name as keyof typeof cantons] as Canton
+)
 
 function Sidebar() {
+    const [search, setSearch] = useState("");
     return (
         <aside id="sidebar">
-            <input type="search" placeholder="Search Swiss statistics..." id="sidebar-search" />
-            <KantonButton name="Aargau"/>
-            <KantonButton name="Bern"/>
-            <KantonButton name="Basilea"/>
-            <KantonButton name="Genève"/>
-            <KantonButton name="Jura"/>
-            <KantonButton name="Luzern"/>
-            <KantonButton name="Ticino"/>
-            <KantonButton name="Vaud"/>
-            <KantonButton name="Zürich"/>
-            <KantonButton name="Zug"/>
+            <input type="search" placeholder="Search Swiss cantons..." id="sidebar-search"
+                   onChange={e => setSearch(e.target.value)} />
+            {
+                Object.keys(cantons).filter(id => getCanton(id).name.includes(search))
+                                    .map(id =>    <CantonButton id={id} canton={getCanton(id)} key={id} />
+                )
+            }
         </aside>
     );
 }

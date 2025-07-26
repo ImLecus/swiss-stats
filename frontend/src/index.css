@@ -1,5 +1,7 @@
+
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family:FreeSans,'ST Allegra',Helvetica Neue,Helvetica,Noto Sans Kr,Hiragino Sans,メイリオ,meiryo,sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -11,7 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
 
   --bg-color: #fff;
-  --bg-color-hover: #f4f4f4;
+  --bg-color-hover: #ececec;
   --text-color: #242424;
 
   color: var(--text-color);
@@ -42,3 +44,6 @@ button {
   transition: border-color 0.25s;
 }
 
+h2 {
+  font-size: 2.5em;
+}

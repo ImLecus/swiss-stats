@@ -1,14 +1,17 @@
 import "../styles/cantonbutton.css"
+import {useContext} from "react";
+import {InfoContext} from "../Context.tsx";
+import type Canton from "../interfaces/Canton.ts";
 
-interface CantonProps {
-    name: string;
-}
-
-const CantonButton = (props: CantonProps) =>{
+const CantonButton = (props: {id: string, canton: Canton}) =>{
+    const context = useContext(InfoContext);
     return(
-        <div className="canton-button">
-            <img alt={props.name} src="https://t4.ftcdn.net/jpg/00/60/07/09/360_F_60070989_mN5TNSCuKw0hmCbE2l2QS2AMiV6808pc.jpg" />
-            <h3>{props.name}</h3>
+        <div className="canton-button" onClick={() => {
+                context?.setSelected(props.id);
+                context?.setVisible(true);
+            }}>
+            <img alt={props.canton.name} src={props.canton.header} />
+            <h3>{props.canton.name}</h3>
         </div>
     );
 }

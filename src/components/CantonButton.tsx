@@ -1,4 +1,4 @@
-import "../styles/cantonbutton.css"
+import "../styles/canton-button.css"
 import {useContext} from "react";
 import {InfoContext} from "../Context.tsx";
 import type Canton from "../interfaces/Canton.ts";

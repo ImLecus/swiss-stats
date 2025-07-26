@@ -1,0 +1,33 @@
+#language-selector-wrapper {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#language-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 8px;
+    background-color: var(--bg-color);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in;
+
+    z-index: 9999;
+}
+
+#language-selector img, .language img {
+    margin-right: 15px;
+}
+
+#language-selector:hover, .language:hover {
+    background-color: var(--bg-color-hover);
+}
+
+.language {
+    background-color: var(--bg-color);
+}

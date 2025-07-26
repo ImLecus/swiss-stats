@@ -23,10 +23,8 @@ function Map() {
                 setHovered(feature.id as string);
 
                 const canton = getCanton(feature.id as string);
-                layer.bindPopup(`<div class="popup">
-                                    <img src=${canton.header} alt=${canton.header} />
-                                    <b>${canton.name}</b>
-                                </div>`, { closeButton: false })
+                layer.bindPopup(`<img src=${canton.header} alt=${canton.header} />
+                                    <b>${canton.name}</b>`, { closeButton: false })
                     .openPopup(e.latlng);
             },
             mouseout: () => {

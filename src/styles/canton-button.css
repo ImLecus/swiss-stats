@@ -4,14 +4,19 @@
     background-color: var(--bg-color);
     height: 120px;
     min-height: 120px;
+    transition: all 0.1s ease-in;
 }
 
 .canton-button:hover {
     cursor: pointer;
     background-color: var(--bg-color-hover);
 }
+
+.canton-button img {
+    transition: all 0.1s ease-in;
+}
+
 .canton-button:hover img {
-    filter: grayscale(1);
     transform: scale(1.1);
     max-height: calc(90px / 1.1);
 }

@@ -36,10 +36,21 @@
     display: flex;
     position: absolute;
     margin: 15px 15px;
+    transition: all 0.1s ease-in;
 }
 
 #sidebar-info .sidebar-return:hover {
     cursor: pointer;
+    transform: translateX(-6px);
+    font-weight: bolder;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+    max-width: 200px;
 }
 
 #sidebar-info a {
@@ -56,4 +67,5 @@
     border: none;
     outline: none;
     border-radius: 8px;
+    font-family:FreeSans,'ST Allegra',Helvetica Neue,Helvetica,Noto Sans Kr,Hiragino Sans,メイリオ,meiryo,sans-serif;
 }

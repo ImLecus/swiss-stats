@@ -3,6 +3,7 @@ import SidebarDetails from "./components/SidebarDetails.tsx";
 import Map from "./components/Map.tsx";
 import {useState} from "react";
 import {InfoContext} from "./Context.tsx";
+import LanguageSelector from "./components/LanguageSelector.tsx";
 
 const App = () => {
     const [selected, setSelected] = useState<string>("");
@@ -12,6 +13,7 @@ const App = () => {
             <Sidebar/>
             <SidebarDetails visible={visible} canton={selected ?? ""} />
             <Map/>
+            <LanguageSelector />
         </InfoContext.Provider>
     )
 }

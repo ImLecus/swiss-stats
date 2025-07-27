@@ -6,15 +6,9 @@
     right: 0;
     top: 0;
 
-    background-color: #f0efeb;
+    background-color: var(--bg-color);
 }
 
 .leaflet-tile {
-    filter: grayscale(0.2);
-}
-
-@media(prefers-color-scheme: dark) {
-    .leaflet-tile {
-        filter: grayscale(1) brightness(0.35) contrast(0.8);
-    }
+    filter: opacity(70%);
 }

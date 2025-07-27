@@ -7,30 +7,20 @@
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 
     z-index: 9999;
-}
+    border-radius: 8px;
+    border: 3px solid var(--border-color);
 
-#map-controls button {
-    background-color: var(--bg-color);
-    outline: none;
-    border: none;
-    transition: all 0.2s ease-in-out;
-    width: 50px;
-    height: 40px;
-    font-size: 16px;
-}
+    & button {
+        background-color: var(--bg-color);
+        transition: all 0.2s ease-in-out;
+        width: 50px;
+        height: 40px;
+        font-size: 16px;
 
-#map-controls button:first-child {
-    border-radius: 8px 0 0 8px !important;
-}
-
-#map-controls button:last-child {
-    border-radius: 0 8px 8px 0 !important;
-}
-
-#map-controls button:hover {
-    outline: none;
-    border: none;
-    background-color: var(--bg-color-hover);
+        &:hover {
+            background-color: var(--bg-color-hover);
+        }
+    }
 }
 
 @media (max-width: 800px) {

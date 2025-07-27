@@ -10,11 +10,15 @@ import {getCanton} from "../interfaces/Canton.ts";
 import "../styles/popup.css"
 
 const DEFAULT_ZOOM = 7.5;
+const LIGHT_MODE_MAP = "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
+const DARK_MODE_MAP = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png";
 
 function Map() {
     const [zoom, setZoom] = useState(DEFAULT_ZOOM);
     const [hovered, setHovered] = useState("");
     const context = useContext(InfoContext);
+
+    const darkModeMq = window.matchMedia("(prefers-color-scheme: dark)");
 
     function onEachFeature(feature: GeoJSON.Feature, layer: L.Layer) {
         if(!feature.properties?.name) return;
@@ -24,7 +28,7 @@ function Map() {
 
                 const canton = getCanton(feature.id as string);
                 layer.bindPopup(`<img src=${canton.header} alt=${canton.header} />
-                                    <b>${canton.name}</b>`, { closeButton: false })
+                                         <b>${canton.name}</b>`, { closeButton: false })
                     .openPopup(e.latlng);
             },
             mouseout: () => {
@@ -41,13 +45,13 @@ function Map() {
 
     return (
         <MapContainer center={[46.8, 8.2]} zoom={zoom} zoomSnap={0.1} zoomDelta={0.2} id="map">
-            <TileLayer attribution={"&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"} url={"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"} />
-            <GeoJSON data={cantons as GeoJSON.FeatureCollection} style={(feature)=> ({
-                fillColor: feature?.id === context?.selected ? "#DA291C" : "#afafaf",
-                weight: 1,
+            <TileLayer url={darkModeMq.matches ? DARK_MODE_MAP : LIGHT_MODE_MAP} />
+            <GeoJSON data={cantons as GeoJSON.FeatureCollection} style={feature => ({
+                fillColor: feature?.id === context?.selected ? "#ba0a0a" : "#afafaf",
+                weight: 2,
                 opacity: 1,
-                color: "#333333",
-                fillOpacity: feature?.id === hovered? 0.7 : 0.5
+                color: "#919191",
+                fillOpacity: feature?.id === hovered? 0.5 : 0.25
             })} onEachFeature={onEachFeature}>
 
             </GeoJSON>

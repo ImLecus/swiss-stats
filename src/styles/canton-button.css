@@ -5,30 +5,27 @@
     height: 125px;
     min-height: 120px;
     transition: all 0.1s ease-in;
-}
 
-.canton-button:hover {
-    cursor: pointer;
-    background-color: var(--bg-color-hover);
-}
+    & img {
+        transition: all 0.1s ease-in;
+        aspect-ratio: 5 / 4;
+        height: 90px;
+        border-radius: 8px;
+        margin-left: 20px;
+    }
 
-.canton-button img {
-    transition: all 0.1s ease-in;
-}
+    & h3 {
+        margin: auto auto auto 20px;
+    }
 
-.canton-button:hover img {
-    transform: scale(1.1);
-    max-height: calc(90px / 1.1);
-}
+    &:hover {
+        cursor: pointer;
+        background-color: var(--bg-color-hover);
 
-.canton-button img {
-    aspect-ratio: 5 / 4;
-    height: 90px;
-    transition: all 0.2s ease-in-out;
-    border-radius: 8px;
-    margin-left: 20px;
-}
+        & img {
+            transform: scale(1.1);
+            max-height: calc(90px / 1.1);
+        }
+    }
 
-.canton-button h3 {
-    margin: auto auto auto 20px;
 }

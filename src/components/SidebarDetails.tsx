@@ -23,6 +23,10 @@ const SidebarDetails = (props: {visible: boolean, canton: string} ) => {
                     <h4>Population:</h4>
                     <p>{info?.population}</p>
                 </div>
+                <div className="sidebar-item">
+                    <h4>Languages:</h4>
+                    <p>{info?.language}</p>
+                </div>
                 {
                     info?.content.map(e => renderCantonElement(e))
                 }

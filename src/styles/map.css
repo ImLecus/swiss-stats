@@ -8,3 +8,13 @@
 
     background-color: #f0efeb;
 }
+
+.leaflet-tile {
+    filter: grayscale(0.2);
+}
+
+@media(prefers-color-scheme: dark) {
+    .leaflet-tile {
+        filter: grayscale(1) brightness(0.35) contrast(0.8);
+    }
+}

@@ -37,7 +37,7 @@ function LanguageSelector() {
 
     return (
         <div id="language-selector-wrapper">
-            <button id="language-selector" onClick={() => setOpen(true)}>
+            <button id="language-selector" onClick={() => setOpen(!open)}>
                 <img src={LangIcon} alt="lang"/>
                 <span>Language</span>
             </button>

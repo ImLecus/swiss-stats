@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     background-color: var(--bg-color);
-    height: 120px;
+    height: 125px;
     min-height: 120px;
     transition: all 0.1s ease-in;
 }

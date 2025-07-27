@@ -15,6 +15,16 @@
     transition: all 0.2s ease-in;
 }
 
+@media (max-width: 800px) {
+    #sidebar {
+        width: 70vw;
+    }
+
+    #sidebar-info {
+        width: 100vw !important;
+    }
+}
+
 #sidebar-info::-webkit-scrollbar-button {
     display: none;
 }
@@ -37,6 +47,7 @@
     position: absolute;
     margin: 15px 15px;
     transition: all 0.1s ease-in;
+    color: var(--bg-color);
 }
 
 #sidebar-info .sidebar-return:hover {
@@ -51,6 +62,11 @@
     justify-content: space-between;
     width: 35%;
     max-width: 200px;
+    margin: 5px 0;
+}
+
+.sidebar-item * {
+    margin: 0;
 }
 
 #sidebar-info a {

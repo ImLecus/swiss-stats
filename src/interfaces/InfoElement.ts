@@ -11,6 +11,7 @@ export interface HeadingElement {
 export interface ImageElement {
     type: "image",
     src: string;
+    alt: string;
 }
 
 export type Element = ContentElement | HeadingElement | ImageElement;

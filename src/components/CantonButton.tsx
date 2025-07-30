@@ -1,7 +1,7 @@
 import "../styles/canton-button.css"
 import {useContext} from "react";
 import {InfoContext} from "../Context.tsx";
-import type Canton from "../interfaces/Canton.ts";
+import type {Canton} from "../interfaces/Canton.ts";
 
 const CantonButton = (props: {id: string, canton: Canton}) =>{
     const context = useContext(InfoContext);

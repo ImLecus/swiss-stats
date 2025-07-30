@@ -1,10 +1,9 @@
-#sidebar, #sidebar-info {
+#sidebar {
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     width: 30vw;
-    min-width: fit-content;
     box-shadow: 0 0 20px 0 var(--shadow-color);
     background-color: var(--bg-color);
 
@@ -14,9 +13,23 @@
     z-index: 2;
     transition: all 0.25s ease-in-out;
     border-right: 1px solid var(--border-color);
+    min-width: fit-content;
 }
 
 #sidebar-info {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    box-shadow: 0 0 20px 0 var(--shadow-color);
+    background-color: var(--bg-color);
+
+    display: flex;
+    flex-direction: column;
+
+    z-index: 2;
+    transition: all 0.25s ease-in-out;
+    border-right: 1px solid var(--border-color);
     width: 60vw;
     overflow-y: scroll;
 

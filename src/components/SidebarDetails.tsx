@@ -1,17 +1,16 @@
-import type Canton from "../interfaces/Canton.ts";
+import {type Canton, getCanton} from "../interfaces/Canton.ts";
 import renderCantonElement from "../renderers/CantonRenderer.tsx";
-import cantons from "../assets/canton-info.json"
 import {useContext} from "react";
 import {InfoContext} from "../Context.tsx";
-import Arrow from "../assets/arrow.svg";
-import ArrowDark from "../assets/arrow-dark.svg";
+import Arrow from "../assets/svg/arrow.svg";
+import ArrowDark from "../assets/svg/arrow-dark.svg";
 
 const SidebarDetails = (props: {visible: boolean, canton: string} ) => {
-    const info : Canton = cantons[props.canton as keyof typeof cantons] as Canton;
+    const info : Canton = getCanton(props.canton);
     const context = useContext(InfoContext);
 
     return (
-        <aside id="sidebar-info" style={{transform: props.visible ? "translateX(0)" : "translateX(-100%)"}}>
+        <aside id="sidebar-info" style={{transform: props.visible ? "translateX(0)" : "translateX(-120%)"}}>
             <div className="sidebar-return" onClick={() => context?.setVisible(false)}>
                 <picture>
                     <source srcSet={ArrowDark} media="(prefers-color-scheme: dark)"/>
@@ -20,7 +19,7 @@ const SidebarDetails = (props: {visible: boolean, canton: string} ) => {
                 <a>Return</a>
             </div>
 
-            <img alt="canton-img" src={info?.header} id="sidebar-info-header"/>
+            <img alt="canton-img" src={info?.header ?? "null"} id="sidebar-info-header"/>
             <div className="sidebar-content">
                 <h2>{info?.name}</h2>
                 <div className="sidebar-item">

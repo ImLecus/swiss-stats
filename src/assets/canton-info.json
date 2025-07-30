@@ -1,4 +1,20 @@
 {
+  "default": {
+    "name": "Unknown",
+    "population": 0,
+    "language": "",
+    "header": null,
+    "content": [
+      {
+        "type": "heading",
+        "label": "Something went wrong..."
+      },
+      {
+        "type": "text",
+        "label": "Oops! This content should not appear here, maybe there is some error in the website code (or maybe this entry isn't even created yet)."
+      }
+    ]
+  },
   "ZH": {
     "name" : "Zürich",
     "population": 1600000,
@@ -19,7 +35,8 @@
       },
       {
         "type": "image",
-        "src": "https://t4.ftcdn.net/jpg/00/60/07/09/360_F_60070989_mN5TNSCuKw0hmCbE2l2QS2AMiV6808pc.jpg"
+        "src": "https://t4.ftcdn.net/jpg/00/60/07/09/360_F_60070989_mN5TNSCuKw0hmCbE2l2QS2AMiV6808pc.jpg",
+        "alt": "Zurich"
       }
     ]
   },

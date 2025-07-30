@@ -11,7 +11,8 @@ function Sidebar() {
             <input type="search" placeholder="Search Swiss cantons..." id="sidebar-search"
                    onChange={e => setSearch(e.target.value)} />
             {
-                Object.keys(cantons).filter(id => getCanton(id).name.includes(search))
+                Object.keys(cantons).filter(id => id != "default")
+                                    .filter(id => getCanton(id).name.includes(search))
                                     .map(id =>    <CantonButton id={id} canton={getCanton(id)} key={id} />
                 )
             }

@@ -4,17 +4,20 @@
     position: fixed;
     right: 30px;
     bottom: 30px;
-    box-shadow: 0 0 20px 0 var(--shadow-color);
-
+    box-shadow: 0 0 15px 0 var(--shadow-color);
+    background: var(--bg-color);
     z-index: 9999;
     border-radius: 8px;
     border: 3px solid var(--border-color);
 
     & button {
-        background-color: var(--bg-color);
+        background-color: transparent;
         transition: all 0.2s ease-in-out;
-        width: 50px;
+        max-width: 50px;
         height: 40px;
+        font-size: 14pt;
+        text-align: center;
+        width: fit-content;
 
         &:hover, &:focus, &:active {
             background-color: var(--bg-color-hover);

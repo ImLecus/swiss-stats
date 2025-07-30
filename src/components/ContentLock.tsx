@@ -1,5 +1,5 @@
 import "../styles/content-lock.css";
-import Mobile from "../assets/mobile.svg";
+import Mobile from "../assets/svg/mobile.svg";
 
 function ContentLock(props: {visible: boolean}) {
     return (

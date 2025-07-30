@@ -1,5 +1,5 @@
 import {useState} from "react";
-import LangIcon from "../assets/lang.svg";
+import LangIcon from "../assets/svg/lang.svg";
 import "../styles/language-selector.css";
 
 interface Language {
@@ -44,7 +44,7 @@ function LanguageSelector() {
             <div id="language-selector-content" style={{height: open ? "100%" : "0%", opacity: open? 1 : 0}}>
                 {
                     languages.map(language => (
-                        <button className="language" onClick={() => {
+                        <button key={language.code} className="language" onClick={() => {
                             setLanguage(language.code);
                             setOpen(false);
                         }}>

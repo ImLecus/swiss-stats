@@ -26,7 +26,6 @@ const App = () => {
             <Sidebar/>
             <SidebarDetails visible={visible} canton={selected ?? ""} />
             <Map/>
-            <LanguageSelector />
         </InfoContext.Provider>
     )
 }

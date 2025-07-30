@@ -4,6 +4,7 @@ import cantons from "../assets/canton-info.json"
 import {useContext} from "react";
 import {InfoContext} from "../Context.tsx";
 import Arrow from "../assets/arrow.svg";
+import ArrowDark from "../assets/arrow-dark.svg";
 
 const SidebarDetails = (props: {visible: boolean, canton: string} ) => {
     const info : Canton = cantons[props.canton as keyof typeof cantons] as Canton;
@@ -12,7 +13,10 @@ const SidebarDetails = (props: {visible: boolean, canton: string} ) => {
     return (
         <aside id="sidebar-info" style={{transform: props.visible ? "translateX(0)" : "translateX(-100%)"}}>
             <div className="sidebar-return" onClick={() => context?.setVisible(false)}>
-                <img src={Arrow} alt="arrow" width={20}/>
+                <picture>
+                    <source srcSet={ArrowDark} media="(prefers-color-scheme: dark)"/>
+                    <img src={Arrow} alt="arrow" width={20}/>
+                </picture>
                 <a>Return</a>
             </div>
 

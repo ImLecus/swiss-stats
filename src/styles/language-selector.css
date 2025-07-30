@@ -5,12 +5,8 @@
 
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 
-    & :last-child.language {
-        border-radius: 0 0 8px 8px;
-    }
 }
 
 #language-selector {
@@ -22,8 +18,26 @@
     background-color: var(--bg-color);
     border: 3px solid var(--border-color);
     transition: all 0.2s ease-in;
+    box-shadow: 0 0 20px 0 var(--shadow-color);
 
     z-index: 9999;
+}
+
+#language-selector-content {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px 0 var(--shadow-color);
+    border-radius: 8px;
+    transition: all 0.2s ease-in;
+
+
+    & :first-child.language {
+        border-radius: 8px 8px 0 0;
+    }
+
+    & :last-child.language {
+        border-radius: 0 0 8px 8px;
+    }
 }
 
 
@@ -39,6 +53,8 @@
 .language {
     background-color: var(--bg-color);
     border: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-evenly;
 
     & :hover {
 

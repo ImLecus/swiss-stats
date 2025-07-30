@@ -5,56 +5,80 @@
     height: 100%;
     width: 20vw;
 
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0 var(--shadow-color);
     background-color: var(--bg-color);
 
     display: flex;
     flex-direction: column;
 
     z-index: 2;
-    transition: all 0.2s ease-in;
+    transition: all 0.25s ease-in-out;
     border-right: 1px solid var(--border-color);
 }
 
 @media (max-width: 800px) {
     #sidebar {
-        width: 70vw;
+        width: 70vw !important;
     }
 
     #sidebar-info {
         width: 100vw !important;
+
+        & .sidebar-return {
+            color: var(--border-color) !important;
+        }
     }
 }
 
-#sidebar-info::-webkit-scrollbar-button {
-    display: none;
+@media (max-width: 1020px) {
+    #sidebar {
+        width: 30vw !important;
+    }
 }
+
 #sidebar-info {
     width: 40vw;
     overflow-y: scroll;
-}
 
-#sidebar-info-header {
-    aspect-ratio: 16 / 9;
-    background-color: var(--bg-color-hover);
-}
+    & .sidebar-content {
+        padding: 20px 30px 20px 50px;
 
-#sidebar-info .sidebar-content {
-    padding: 20px 30px 20px 50px;
-}
+        & img {
+            border-radius: 8px;
+        }
+    }
 
-#sidebar-info .sidebar-return {
-    display: flex;
-    position: absolute;
-    margin: 15px 15px;
-    transition: all 0.1s ease-in;
-    color: var(--bg-color);
-}
+    & #sidebar-info-header {
+        aspect-ratio: 16 / 9;
+        background-color: var(--bg-color-hover);
+    }
 
-#sidebar-info .sidebar-return:hover {
-    cursor: pointer;
-    transform: translateX(-6px);
-    font-weight: bolder;
+    & a {
+        color: var(--bg-color);
+        font-weight: bold;
+        margin-left: 10px;
+        text-shadow:  0 0 20px 0 var(--shadow-color);
+    }
+
+    & .sidebar-return {
+        display: flex;
+        position: absolute;
+        align-items: center;
+        margin: 15px 15px;
+        transition: all 0.1s ease-in;
+        color: var(--bg-color);
+
+        & picture {
+            display: flex;
+            align-items: center;
+        }
+
+        &:hover {
+            cursor: pointer;
+            transform: translateX(-6px);
+            font-weight: bolder;
+        }
+    }
 }
 
 .sidebar-item {
@@ -69,13 +93,6 @@
         margin: 0;
     }
 
-}
-
-#sidebar-info a {
-    color: var(--bg-color);
-    font-weight: bold;
-    margin-left: 10px;
-    text-shadow:  0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 #sidebar-search {

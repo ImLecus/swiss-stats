@@ -5,6 +5,7 @@
     height: 125px;
     min-height: 120px;
     transition: all 0.1s ease-in;
+    width: auto;
 
     & img {
         transition: all 0.1s ease-in;
@@ -19,7 +20,7 @@
         margin: auto auto auto 20px;
     }
 
-    &:hover {
+    &:hover, &:active, &:focus {
         cursor: pointer;
         background-color: var(--bg-color-hover);
 
@@ -28,5 +29,21 @@
             border-radius: 6px !important;
         }
     }
+
+}
+
+
+@media (max-width: 768px){
+    .canton-button {
+        min-height: 90px;
+        height: 90px;
+        & img {
+            height: 70px;
+        }
+    }
+}
+
+
+@media (max-width: 992px){
 
 }

@@ -6,6 +6,9 @@ import {InfoContext} from "./Context.tsx";
 import LanguageSelector from "./components/LanguageSelector.tsx";
 import ContentLock from "./components/ContentLock.tsx";
 
+function isMobileDevice() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
 
 const App = () => {
     const [selected, setSelected] = useState<string>("");
@@ -19,7 +22,7 @@ const App = () => {
 
     return (
         <InfoContext.Provider value={{selected, visible, setSelected, setVisible}}>
-            <ContentLock visible={orientation.includes("portrait")} />
+            <ContentLock visible={isMobileDevice() && orientation.includes("portrait")} />
             <Sidebar/>
             <SidebarDetails visible={visible} canton={selected ?? ""} />
             <Map/>

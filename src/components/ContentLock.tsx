@@ -7,7 +7,7 @@ function ContentLock(props: {visible: boolean}) {
             <picture>
                 <img src={Mobile} alt={"mobile"} width={"50%"}/>
             </picture>
-            <p>Please rotate your phone</p>
+            <p>Please rotate your device</p>
         </div>
     )
 }

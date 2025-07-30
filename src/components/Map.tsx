@@ -1,5 +1,5 @@
 import "../styles/map.css"
-import {useState, useRef, useEffect, type Key} from "react";
+import {useState} from "react";
 import cantons from "../assets/cantons.json";
 import L, {type LeafletMouseEvent} from "leaflet";
 import {useContext} from "react";
@@ -18,12 +18,8 @@ function Map() {
     const [hovered, setHovered] = useState("");
     const context = useContext(InfoContext);
     const darkModeMq = window.matchMedia("(prefers-color-scheme: dark)");
-    const geoJsonLayerRef = useRef<L.Map | null>(null);
 
     function onEachFeature(feature: GeoJSON.Feature, layer: L.Layer) {
-        if (!geoJsonLayerRef.current) {
-            geoJsonLayerRef.current = layer._map ? layer._map : null; // Not exact, see caveat below
-        }
         if(!feature.properties?.name) return;
         layer.on({
             mouseover: (e: LeafletMouseEvent) => {

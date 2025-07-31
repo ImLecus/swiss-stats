@@ -10,7 +10,7 @@ const CantonButton = (props: {id: string, canton: Canton}) =>{
                 context?.setSelected(props.id);
                 context?.setVisible(true);
             }}>
-            <img alt={props.canton.name} src={props.canton.header} />
+            <img alt={props.canton.name} src={props.canton.header ?? "null"} />
             <h3>{props.canton.name}</h3>
         </div>
     );

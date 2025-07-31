@@ -34,7 +34,7 @@ const languages: Language[] = [
 function LanguageSelector() {
     const [open, setOpen] = useState(false);
     const [language, setLanguage] = useState("en");
-
+    console.debug("Actual language: " + language);
     return (
         <div id="language-selector-wrapper">
             <button id="language-selector" onClick={() => setOpen(!open)}>

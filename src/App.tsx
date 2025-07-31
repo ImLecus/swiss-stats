@@ -3,7 +3,6 @@ import SidebarDetails from "./components/SidebarDetails.tsx";
 import Map from "./components/Map.tsx";
 import {useState, useEffect} from "react";
 import {InfoContext} from "./Context.tsx";
-import LanguageSelector from "./components/LanguageSelector.tsx";
 import ContentLock from "./components/ContentLock.tsx";
 
 function isMobileDevice() {

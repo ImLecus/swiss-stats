@@ -4,53 +4,188 @@
     "population": 0,
     "language": "",
     "header": null,
-    "content": [
-      {
-        "type": "heading",
-        "label": "Something went wrong..."
-      },
-      {
-        "type": "text",
-        "label": "Oops! This content should not appear here, maybe there is some error in the website code (or maybe this entry isn't even created yet)."
-      }
-    ]
+    "content": []
   },
   "ZH": {
-    "name" : "Zürich",
-    "population": 1600000,
+    "name": "Zürich",
+    "population": 1553423,
     "language": "swiss-german",
-    "header": "https://t4.ftcdn.net/jpg/00/60/07/09/360_F_60070989_mN5TNSCuKw0hmCbE2l2QS2AMiV6808pc.jpg",
-    "content": [
-      {
-        "type": "text",
-        "label": "The canton of Zurich is one of Switzerland’s key centers, renowned for its strong economy as well as its rich history and natural diversity. Located in the northeast of the country, this canton covers an area of approximately 1,729 km² and is home to over 1.5 million inhabitants, making it the most populous in the Swiss Confederation. Its territory features a varied landscape including gentle hills, fertile valleys, and mountains, with the iconic Lake Zurich serving as a natural jewel offering idyllic scenery and numerous recreational opportunities.\n\nThe capital city, also called Zurich, is a global cultural and financial hub where historic architecture blends with a vibrant urban life. Additionally, the canton has witnessed pivotal historical milestones, from Neolithic settlements to being the epicenter of the Protestant Reformation led by Ulrich Zwingli in the 16th century. Its balance of modernity, tradition, cultural richness, and preserved nature make the canton of Zurich an essential destination for those seeking to experience the essence of Switzerland in all its breadth."
-      },
-      {
-        "type": "heading",
-        "label": "Heading"
-      },
-      {
-        "type": "text",
-        "label": "Porta dui magna mattis nisl turpis sapien id viverra taciti mi, pharetra sociosqu ut varius mauris facilisis maecenas egestas posuere. Cubilia a gravida eros diam massa posuere dui curae, erat condimentum est placerat tortor ut malesuada. Per rutrum dis mauris leo pellentesque facilisi nisi ultrices donec, vitae odio porta quisque eu mollis dictum commodo class magnis, sed pretium metus ornare orci quis torquent eros. Donec cum praesent habitant etiam facilisis metus curae, dui dictumst feugiat rutrum morbi suspendisse congue ridiculus, lacus vestibulum elementum laoreet semper pharetra.\n"
-      },
-      {
-        "type": "image",
-        "src": "https://t4.ftcdn.net/jpg/00/60/07/09/360_F_60070989_mN5TNSCuKw0hmCbE2l2QS2AMiV6808pc.jpg",
-        "alt": "Zurich"
-      }
-    ]
+    "header": "https://s2.qwant.com/thumbr/474x315/f/a/a642758e51e91a5b4aa8a7bd68eb683df7c7450726c6dcf6755189b444cc0a/OIP.GSN69Rwz1WFY6q-022L6TwHaE7.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.GSN69Rwz1WFY6q-022L6TwHaE7%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
   },
-
+  "BE": {
+    "name": "Bern",
+    "population": 1034977,
+    "language": "swiss-german",
+    "header": "https://s1.qwant.com/thumbr/474x266/1/5/7cf1c9a2a58a42cc6243ab539eb3f8ac76cad5d6278ce0d99a30440f6cec7b/OIP.wlrgC4MuyI4tfJRir6RwkwHaEK.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.wlrgC4MuyI4tfJRir6RwkwHaEK%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "VD": {
+    "name": "Vaud",
+    "population": 829610,
+    "language": "french",
+    "header": "https://s2.qwant.com/thumbr/474x316/6/b/e4d12aeac58fe036f26429ec538c4bb3699429bf51cbe37e09259f7490ae43/OIP.ClZMFvrct6oPohQmOAk2GAHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.ClZMFvrct6oPohQmOAk2GAHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
   "AG": {
-    "name" : "Aargau",
+    "name": "Aargau",
     "population": 735619,
     "language": "swiss-german",
-    "header": "https://media.istockphoto.com/id/1393278294/de/foto/aarburg-kanton-aargau-schweiz.jpg?s=612x612&w=0&k=20&c=pt3XBjZeM9rkhAsStlxi4DN3edTSjeSPVIaZf6HlFrc=",
-    "content": [
-      {
-        "type": "text",
-        "label": "Aargau is characterized by its pleasant green landscape, with a rural and historical atmosphere located in northern Switzerland along the German border. It is crossed by several rivers including the Rhine, Aare, Limmat, and Reuss, and contains lakes such as Lake Hallwil. Its capital is Aarau, a medieval city with notable frescoes and museums."
-      }
-    ]
+    "header": "https://s2.qwant.com/thumbr/474x355/7/0/acb3ef5cab5ffca43cd249bde8816692ec59b7ac0edb379413dc9725979353/OIP.YF7_4q2APp2ffsW0RpG_-AHaFj.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.YF7_4q2APp2ffsW0RpG_-AHaFj%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "SG": {
+    "name": "St. Gallen",
+    "population": 515139,
+    "language": "swiss-german",
+    "header": "https://s2.qwant.com/thumbr/474x354/4/b/cefbcf6bc2adff085655a39a0d516419db9ea31c511a25f89d062e23bb643c/OIP.KZL34Onrc82_FDH7ndm3FQHaFi.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.KZL34Onrc82_FDH7ndm3FQHaFi%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "GE": {
+    "name": "Geneva",
+    "population": 506918,
+    "language": "french",
+    "header": "https://s1.qwant.com/thumbr/474x229/2/6/3fa4ecd32f9080e933f01ac2352f9d5fbb8891ab09235a665839ebb7cd6aaa/OIP.nTwYOEFdCWW9XxxmsxmuDwHaDl.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.nTwYOEFdCWW9XxxmsxmuDwHaDl%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "LU": {
+    "name": "Lucerne",
+    "population": 416347,
+    "language": "swiss-german",
+    "header": "https://s1.qwant.com/thumbr/474x313/0/a/3fa36129b1eacdb81267ba2113f8501e418ea61624b1ee8bcd66bc2dc43545/OIP.aICfSL0l00lyWBP16xFMoAHaE5.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.aICfSL0l00lyWBP16xFMoAHaE5%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "TI": {
+    "name": "Ticino",
+    "population": 353343,
+    "language": "italian",
+    "header": "https://s2.qwant.com/thumbr/474x269/c/b/1e72dc37c696b316171ad4337a4d7904cb312a3093a53aff1ffafddb0f5027/OIP.pt7tuQ0LM8S3k8oEFwzduwHaEN.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.pt7tuQ0LM8S3k8oEFwzduwHaEN%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "SO": {
+    "name": "Solothurn",
+    "population": 276472,
+    "language": "swiss-german",
+    "header": "https://s1.qwant.com/thumbr/474x312/8/8/82e1f050cce56c524d4fff16cfbc7188ed285125e8535e4e1f7b88e1f9b12b/OIP.mI0wXEhSjX9tQQPpjO1ruwHaE4.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.mI0wXEhSjX9tQQPpjO1ruwHaE4%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "GR": {
+    "name": "Graubünden",
+    "population": 201392,
+    "language": "swiss-german",
+    "header": "https://s2.qwant.com/thumbr/474x316/5/5/3da15357ce9961a8db71e7b3f547875f385da4c9caedc535f0cd19c6eceea5/OIP.LnXHxZUzMxO5ZKeLjYezqQHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.LnXHxZUzMxO5ZKeLjYezqQHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "FR": {
+    "name": "Fribourg",
+    "population": 327578,
+    "language": "french",
+    "header": "https://s2.qwant.com/thumbr/474x304/4/b/e95f4215b63553807ae6edb844f12da7eb5dad0ab838f8822ca8215b5159ca/OIP.OtzL-JPXfKjv7FSm6OvzdgHaEw.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.OtzL-JPXfKjv7FSm6OvzdgHaEw%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "BS": {
+    "name": "Basel-Stadt",
+    "population": 195057,
+    "language": "swiss-german",
+    "header": "https://s1.qwant.com/thumbr/474x316/8/5/179266a4c1f77b6113c558dd6a90770239a793ba1dd5fac37ab028262ec5aa/OIP.-CHFnMVtzG9uanTItxGP2AHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.-CHFnMVtzG9uanTItxGP2AHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "BL": {
+    "name": "Basel-Landschaft",
+    "population": 290540,
+    "language": "swiss-german",
+    "header": "https://s2.qwant.com/thumbr/474x266/e/b/f4804ea357f1096ebecf6fa7908b12a2771056f7654015032849934c31aee2/OIP.4uN_PUpHh48xZrIJ1-fnzQHaEK.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.4uN_PUpHh48xZrIJ1-fnzQHaEK%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "TG": {
+    "name": "Thurgau",
+    "population": 276472,
+    "language": "swiss-german",
+    "header": "https://s1.qwant.com/thumbr/474x266/9/a/d556ba8783843ed0ac307fc75b2835e37e419de31e0a0273470f1fd71ebc9a/OIP.s5opkwQjpip0jzOCMALH2QHaEK.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.s5opkwQjpip0jzOCMALH2QHaEK%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "VS": {
+    "name": "Valais",
+    "population": 354578,
+    "language": "french",
+    "header": "https://s2.qwant.com/thumbr/474x189/f/1/f685b64fd02429d1ac86608fb1a4e0fe46ebec265e4e8545b8dae68147603c/OIP.mT-CiRyv2csWxE6S80VzKwHaC9.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.mT-CiRyv2csWxE6S80VzKwHaC9%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "NE": {
+    "name": "Neuchâtel",
+    "population": 176809,
+    "language": "french",
+    "header": "https://s2.qwant.com/thumbr/474x316/e/0/945d7e6c36ef7bbe2f8ceb8f2bddda52478a887d26d68f768fa05160da29f1/OIP.fD3bS-OY2BlGBkbqt4avywHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.fD3bS-OY2BlGBkbqt4avywHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "SZ": {
+    "name": "Schwyz",
+    "population": 160914,
+    "language": "swiss-german",
+    "header": "https://s2.qwant.com/thumbr/474x280/d/2/922bd6a4335caa4a86798cb4dbd22cd380ba34815d38134e57d685baa75a1c/OIP.OjjSMbY_4vkaGJtZLoZZGwHaEY.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.OjjSMbY_4vkaGJtZLoZZGwHaEY%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "JU": {
+    "name": "Jura",
+    "population": 73630,
+    "language": "french",
+    "header": "https://s1.qwant.com/thumbr/474x315/2/3/3be4f5e1912495460ad245a566db2fca285f1223f6137a985ae0598c812596/OIP.MU6l_v8_7pr0q-m2QgpFMgHaE7.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.MU6l_v8_7pr0q-m2QgpFMgHaE7%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "ZG": {
+    "name": "Zug",
+    "population": 127849,
+    "language": "swiss-german",
+    "header": "https://s2.qwant.com/thumbr/474x313/c/f/87f425908b1006e53a3f0693fe6e6f5a9999d210245859c56aa196c193fb6d/OIP.4oCwc9R5MKaagf7qZNOdUAHaE5.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.4oCwc9R5MKaagf7qZNOdUAHaE5%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "SH": {
+    "name": "Schaffhausen",
+    "population": 83197,
+    "language": "swiss-german",
+    "header": "https://s2.qwant.com/thumbr/474x266/e/3/450541ceb70df65d311843e11843f1e95e62047d35a075892841881957d9e8/OIP.jZ0HOZikZtAPBbI9lDNg3AHaEK.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.jZ0HOZikZtAPBbI9lDNg3AHaEK%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "AR": {
+    "name": "Appenzell Ausserrhoden",
+    "population": 55234,
+    "language": "swiss-german",
+    "header": "https://s2.qwant.com/thumbr/474x357/d/a/cdc5a09cf789878cfcce7d7c4c33d0aa32c544b49b341bb39f6c76a94d4fbd/OIP.END-jMeKBjECW47_UzkTnAHaFl.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.END-jMeKBjECW47_UzkTnAHaFl%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "AI": {
+    "name": "Appenzell Innerrhoden",
+    "population": 16003,
+    "language": "swiss-german",
+    "header": "https://s2.qwant.com/thumbr/474x316/4/c/6b05619545d103f4bb19f017a723bb181f083b0df9a79a1bc851d58955d1b5/OIP.t1rYE9RWJTp3dTjAwkpUuQHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.t1rYE9RWJTp3dTjAwkpUuQHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "GL": {
+    "name": "Glarus",
+    "population": 40500,
+    "language": "swiss-german",
+    "header": "https://s2.qwant.com/thumbr/474x316/4/5/67c9a9378622a1a847b4f2584a1208f8068fafc8029ecb9fda7c590acc59d2/OIP.utwtgis7lp7ce-4Ie7I0OAHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.utwtgis7lp7ce-4Ie7I0OAHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "NW": {
+    "name": "Nidwalden",
+    "population": 43223,
+    "language": "swiss-german",
+    "header": "https://s1.qwant.com/thumbr/474x316/8/9/afed8dae61c86b1e63daa54129e73c86990d0567887deef74fa89e60fb0856/OIP.ONQQkComg3VbJUzzsc8gxgHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.ONQQkComg3VbJUzzsc8gxgHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "OW": {
+    "name": "Obwalden",
+    "population": 37346,
+    "language": "swiss-german",
+    "header": "https://s1.qwant.com/thumbr/474x266/9/c/53c8a81a7d1cf3fcbfe7673a5f051e469faeb703e6a6c12f2a54518665f528/OIP.ns4AjukrIFBScTmreT7ktAHaEK.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.ns4AjukrIFBScTmreT7ktAHaEK%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
+  },
+  "UR": {
+    "name": "Uri",
+    "population": 36500,
+    "language": "swiss-german",
+    "header": "https://s2.qwant.com/thumbr/474x316/6/d/a85cd88963b90364470139b74f98a9282a2c2d905310a93949d185747c7d1e/OIP.EzmZiirWvIMerJ77p81bdwHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.EzmZiirWvIMerJ77p81bdwHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+    "content": []
   }
 }

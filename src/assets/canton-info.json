@@ -2,190 +2,1065 @@
   "default": {
     "name": "Unknown",
     "population": 0,
-    "language": "",
+    "languages": [],
     "header": null,
     "content": []
   },
   "ZH": {
     "name": "Zürich",
-    "population": 1553423,
-    "language": "swiss-german",
-    "header": "https://s2.qwant.com/thumbr/474x315/f/a/a642758e51e91a5b4aa8a7bd68eb683df7c7450726c6dcf6755189b444cc0a/OIP.GSN69Rwz1WFY6q-022L6TwHaE7.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.GSN69Rwz1WFY6q-022L6TwHaE7%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 1553000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Z%C3%BCrich_view_Quaibr%C3%BCcke_20200702.jpg/960px-Z%C3%BCrich_view_Quaibr%C3%BCcke_20200702.jpg?_=20201010090706",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Zurich"
+      },
+      {
+        "type": "text",
+        "label": "Zurich is the most populous and economically most important canton in Switzerland. Located in the north of the country, its capital, the city of Zurich, is the financial center of Switzerland and one of Europe's most vibrant cities. It is known for its high quality of life, impeccable infrastructure, and unique blend of traditional history and modernity."
+      },
+      {
+        "type": "heading",
+        "label": "The Financial Heart of Switzerland"
+      },
+      {
+        "type": "text",
+        "label": "The city of Zurich hosts the headquarters of some of the world's largest banks and is a global center for wealth management. The financial district, known as 'Bahnhofstrasse', is famous for its luxury shops and its crucial role in the Swiss economy. Additionally, the canton boasts a strong technology innovation ecosystem, attracting international talent."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Bahnhofstrasse_%283795214397%29.jpg/960px-Bahnhofstrasse_%283795214397%29.jpg?_=20250119042422",
+        "alt": "View of Bahnhofstrasse in Zurich, the famous financial and commercial avenue"
+      },
+      {
+        "type": "heading",
+        "label": "Nature and Culture by the Lake"
+      },
+      {
+        "type": "text",
+        "label": "Beyond finance, Zurich offers exceptional quality of life thanks to its location next to Lake Zurich and proximity to the Alps. The city is a cultural hub with world-class museums, theaters, and a vibrant art scene. On weekends, residents enjoy boat rides, hiking in nearby hills like Uetliberg, and water sports on the lake."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Lake_Zurich_%28Ank_Kumar%2C_Infosys%29_04.jpg/960px-Lake_Zurich_%28Ank_Kumar%2C_Infosys%29_04.jpg?_=20210308091419",
+        "alt": "Panoramic view of Lake Zurich"
+      }
+    ]
   },
   "BE": {
     "name": "Bern",
-    "population": 1034977,
-    "language": "swiss-german",
-    "header": "https://s1.qwant.com/thumbr/474x266/1/5/7cf1c9a2a58a42cc6243ab539eb3f8ac76cad5d6278ce0d99a30440f6cec7b/OIP.wlrgC4MuyI4tfJRir6RwkwHaEK.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.wlrgC4MuyI4tfJRir6RwkwHaEK%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 1034000,
+    "languages": ["swiss-german", "french"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Bern_luftaufnahme.png/640px-Bern_luftaufnahme.png",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Bern"
+      },
+      {
+        "type": "text",
+        "label": "Bern is the second-largest canton in Switzerland by area and population. As the seat of the federal government, the city of Bern serves as the de facto capital of Switzerland. The canton is known for its rich history, stunning medieval architecture, and beautiful Alpine landscapes. It offers an excellent balance between urban life and nature, making it attractive for both professionals and families."
+      },
+      {
+        "type": "heading",
+        "label": "The Federal Capital"
+      },
+      {
+        "type": "text",
+        "label": "The city of Bern houses the Swiss Federal Parliament (Bundeshaus) and is the administrative heart of the country. The well-preserved Old Town is a UNESCO World Heritage site, featuring medieval arcades, the iconic Zytglogge clock tower, and charming cobblestone streets. This unique combination of political importance and historical preservation makes Bern a fascinating place to live and visit."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bern_Parliament_Plaza_Flagged_Wide_2019-09-13_23-11.jpg/960px-Bern_Parliament_Plaza_Flagged_Wide_2019-09-13_23-11.jpg?_=20191013160114",
+        "alt": "The Swiss Federal Parliament building (Bundeshaus) in Bern"
+      },
+      {
+        "type": "heading",
+        "label": "Alpine Beauty and the Aare River"
+      },
+      {
+        "type": "text",
+        "label": "The canton of Bern stretches from the Jura mountains to the Bernese Alps, offering incredible natural diversity. The Aare river winds through the city, creating a natural peninsula where the Old Town sits. In summer, locals swim in the crystal-clear waters, while winter brings world-class skiing destinations like Jungfrau and Grindelwald. The canton also includes the famous Bernese Oberland region, one of Switzerland's most scenic areas."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Aare_river_in_Bern.jpg/960px-Aare_river_in_Bern.jpg?_=20041115230006",
+        "alt": "View of Bern's Old Town with the Aare river surrounding it"
+      }
+    ]
   },
   "VD": {
     "name": "Vaud",
-    "population": 829610,
-    "language": "french",
-    "header": "https://s2.qwant.com/thumbr/474x316/6/b/e4d12aeac58fe036f26429ec538c4bb3699429bf51cbe37e09259f7490ae43/OIP.ClZMFvrct6oPohQmOAk2GAHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.ClZMFvrct6oPohQmOAk2GAHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 829000,
+    "languages": ["french"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ch%C3%A2teau_de_Chillon%28Chillon_Castle%29_on_Lake_Geneva_Shore_%28Ank_Kumar%2C_Infosys%29_06.jpg/640px-Ch%C3%A2teau_de_Chillon%28Chillon_Castle%29_on_Lake_Geneva_Shore_%28Ank_Kumar%2C_Infosys%29_06.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Vaud"
+      },
+      {
+        "type": "text",
+        "label": "Vaud is one of Switzerland's most diverse and attractive cantons, located in the French-speaking part of the country along Lake Geneva. Known for its stunning vineyards, Olympic heritage, and vibrant university towns, Vaud offers an exceptional quality of life. The canton combines Mediterranean-style climate in some areas with Alpine scenery, making it popular among expatriates and international professionals."
+      },
+      {
+        "type": "heading",
+        "label": "UNESCO Vineyards and Wine Culture"
+      },
+      {
+        "type": "text",
+        "label": "The Lavaux vineyard terraces, a UNESCO World Heritage site, stretch along the shores of Lake Geneva and represent one of Switzerland's most picturesque wine-growing regions. The canton produces renowned wines including Chasselas and Pinot Noir. Wine tasting tours, vineyard hikes, and local festivals are integral to Vaud's culture. This unique combination of agricultural heritage and tourism creates a charming lifestyle for residents who appreciate gastronomy and outdoor activities."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Lavaux_Switzerland.jpg/640px-Lavaux_Switzerland.jpg",
+        "alt": "UNESCO World Heritage Lavaux vineyard terraces overlooking Lake Geneva"
+      },
+      {
+        "type": "heading",
+        "label": "Olympic Capital and International Hub"
+      },
+      {
+        "type": "text",
+        "label": "Lausanne, the capital of Vaud, is home to the International Olympic Committee and numerous international sports organizations. The city attracts a cosmopolitan population and hosts prestigious institutions like the University of Lausanne and EPFL's satellite campus. With its hillside location overlooking the lake, Lausanne offers a dynamic urban environment with excellent public transport, museums, and a thriving startup scene. The canton also benefits from proximity to Geneva, making it ideal for those working in international organizations."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Cathedral_%40_Lausanne_%2836730996562%29.jpg/640px-Cathedral_%40_Lausanne_%2836730996562%29.jpg",
+        "alt": "Lausanne Cathedral with Lake Geneva in the background"
+      }
+    ]
   },
   "AG": {
     "name": "Aargau",
-    "population": 735619,
-    "language": "swiss-german",
-    "header": "https://s2.qwant.com/thumbr/474x355/7/0/acb3ef5cab5ffca43cd249bde8816692ec59b7ac0edb379413dc9725979353/OIP.YF7_4q2APp2ffsW0RpG_-AHaFj.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.YF7_4q2APp2ffsW0RpG_-AHaFj%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 735000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bremgarten_aerial.jpg/640px-Bremgarten_aerial.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Aargau"
+      },
+      {
+        "type": "text",
+        "label": "Aargau is located in northern Switzerland, between Zurich and Bern. Known as the 'canton of castles' with over 100 historic fortresses, it offers a perfect blend of rural charm and economic prosperity. The canton borders Germany and benefits from strong industrial sectors while maintaining excellent access to major Swiss cities. It's particularly popular for families seeking affordable housing near urban centers."
+      },
+      {
+        "type": "heading",
+        "label": "The Canton of Castles"
+      },
+      {
+        "type": "text",
+        "label": "Aargau boasts an impressive concentration of medieval castles and abbeys, including the famous Habsburg Castle (birthplace of the Habsburg dynasty) and the UNESCO-listed Muri Abbey. These historical sites are well-preserved and open to visitors, offering a glimpse into Switzerland's medieval past. The canton actively promotes heritage tourism, making it easy for residents to explore their local history on weekends."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Habsburg_%28Aargau%2C_Switzerland%29.jpg/640px-Habsburg_%28Aargau%2C_Switzerland%29.jpg",
+        "alt": "Habsburg Castle overlooking the Aargau countryside"
+      },
+      {
+        "type": "heading",
+        "label": "Industry and Natural Beauty"
+      },
+      {
+        "type": "text",
+        "label": "The canton is home to major industrial companies and pharmaceutical firms, providing strong employment opportunities. The Aare river flows through the region, offering recreational activities like swimming, kayaking, and riverside cycling paths. With its central location, Aargau residents enjoy quick train connections to Zurich (30 minutes) and Bern (45 minutes), making it ideal for commuters who prefer quieter surroundings."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/F%C3%B6rderanlage-Br%C3%BCcke_%C3%BCber_die_Aare%2C_Auenstein_AG_%E2%80%93_Wildegg_AG_20241030-jag9889.jpg/640px-F%C3%B6rderanlage-Br%C3%BCcke_%C3%BCber_die_Aare%2C_Auenstein_AG_%E2%80%93_Wildegg_AG_20241030-jag9889.jpg",
+        "alt": "The Aare river flowing through the Aargau landscape"
+      }
+    ]
   },
   "SG": {
     "name": "St. Gallen",
-    "population": 515139,
-    "language": "swiss-german",
-    "header": "https://s2.qwant.com/thumbr/474x354/4/b/cefbcf6bc2adff085655a39a0d516419db9ea31c511a25f89d062e23bb643c/OIP.KZL34Onrc82_FDH7ndm3FQHaFi.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.KZL34Onrc82_FDH7ndm3FQHaFi%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 515000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Gallusstrasse_in_St._Gallen_%2804-2017%29.jpg/640px-Gallusstrasse_in_St._Gallen_%2804-2017%29.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of St. Gallen"
+      },
+      {
+        "type": "text",
+        "label": "St. Gallen is located in northeastern Switzerland, bordering Liechtenstein and Austria. Known for its world-famous abbey library and rich textile industry heritage, the canton offers a blend of cultural depth and economic opportunity. It's particularly attractive for those seeking a quieter lifestyle while maintaining good access to major Swiss cities like Zurich and Lake Constance."
+      },
+      {
+        "type": "heading",
+        "label": "UNESCO Abbey Library"
+      },
+      {
+        "type": "text",
+        "label": "The Abbey of St. Gall is one of Switzerland's most important cultural landmarks, featuring a baroque cathedral and one of the world's oldest and most beautiful monastic libraries. The library houses over 170,000 volumes, including priceless medieval manuscripts dating back to the 8th century. As a UNESCO World Heritage site, it draws scholars and tourists from around the globe, making it a point of pride for local residents and a testament to the canton's intellectual heritage."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/CH.SG.St-Gallen_2023-11-15_Abbey-Library-of-Saint-Gall_3728_4x3-R_11K.jpg/640px-CH.SG.St-Gallen_2023-11-15_Abbey-Library-of-Saint-Gall_3728_4x3-R_11K.jpg",
+        "alt": "The baroque interior of the Abbey Library of St. Gall"
+      },
+      {
+        "type": "heading",
+        "label": "Textile Industry and Lake Constance"
+      },
+      {
+        "type": "text",
+        "label": "St. Gallen was historically the center of Switzerland's textile industry, particularly famous for embroidery and lace production. While the industry has evolved, the region still hosts innovative textile companies and design schools. The canton also borders Lake Constance (Bodensee), offering beautiful waterfront recreation, cycling paths, and ferry connections to Germany and Austria. This combination of industrial heritage and natural beauty creates diverse living options throughout the region."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Vorfr%C3%BChling_am_Bodensee.jpg/640px-Vorfr%C3%BChling_am_Bodensee.jpg",
+        "alt": "View of Lake Constance from the St. Gallen region"
+      }
+    ]
   },
   "GE": {
     "name": "Geneva",
-    "population": 506918,
-    "language": "french",
-    "header": "https://s1.qwant.com/thumbr/474x229/2/6/3fa4ecd32f9080e933f01ac2352f9d5fbb8891ab09235a665839ebb7cd6aaa/OIP.nTwYOEFdCWW9XxxmsxmuDwHaDl.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.nTwYOEFdCWW9XxxmsxmuDwHaDl%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 506000,
+    "languages": ["french"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mai_2007%2C_Gen%C3%A8ve_12.jpg/640px-Mai_2007%2C_Gen%C3%A8ve_12.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Geneva"
+      },
+      {
+        "type": "text",
+        "label": "Geneva is located in southwestern Switzerland, bordering France. As the second-most populous canton and a global diplomatic hub, Geneva hosts numerous international organizations including the United Nations, Red Cross, and WHO. The canton offers a cosmopolitan lifestyle with excellent international schools, diverse cuisine, and strong job opportunities in diplomacy, NGOs, and finance."
+      },
+      {
+        "type": "heading",
+        "label": "International Organizations Hub"
+      },
+      {
+        "type": "text",
+        "label": "Geneva is home to over 40 international organizations and 180 permanent missions, making it one of the most international cities in the world. The Palais des Nations (UN Office at Geneva) alone employs thousands of staff from across the globe. This concentration creates a multilingual environment where English, French, and many other languages are commonly spoken. For professionals in international relations, humanitarian work, or diplomacy, Geneva offers unparalleled career opportunities."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Palais_des_Nations_5.jpg/640px-Palais_des_Nations_5.jpg",
+        "alt": "The Palais des Nations, United Nations Office at Geneva"
+      },
+      {
+        "type": "heading",
+        "label": "Lake Geneva and the Jet d'Eau"
+      },
+      {
+        "type": "text",
+        "label": "The iconic Jet d'Eau fountain shoots water 140 meters into the air and is one of Geneva's most recognizable landmarks. Lake Geneva offers beautiful waterfront promenades, boat cruises, and swimming spots during summer. The canton also features several parks including the Jardin Anglais and the Botanical Gardens. With its Mediterranean-influenced climate and proximity to French ski resorts, Geneva provides year-round outdoor activities for residents."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Jet_d%27eau%2C_Lake_Geneva%28Ank_Kumar%2C_Infosys%29_08.jpg/640px-Jet_d%27eau%2C_Lake_Geneva%28Ank_Kumar%2C_Infosys%29_08.jpg",
+        "alt": "The famous Jet d'Eau fountain on Lake Geneva"
+      }
+    ]
   },
   "LU": {
     "name": "Lucerne",
-    "population": 416347,
-    "language": "swiss-german",
-    "header": "https://s1.qwant.com/thumbr/474x313/0/a/3fa36129b1eacdb81267ba2113f8501e418ea61624b1ee8bcd66bc2dc43545/OIP.aICfSL0l00lyWBP16xFMoAHaE5.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.aICfSL0l00lyWBP16xFMoAHaE5%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 416000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Lucerne_Lake_Pilatus_panoramic_P1170968.jpg/640px-Lucerne_Lake_Pilatus_panoramic_P1170968.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Lucerne"
+      },
+      {
+        "type": "text",
+        "label": "Lucerne is located in central Switzerland, surrounded by mountains and Lake Lucerne. Known for its exceptionally well-preserved medieval architecture and stunning natural scenery, the canton is one of Switzerland's most popular tourist destinations. Despite its tourism focus, it offers a high quality of life for residents with good infrastructure, moderate cost of living compared to Zurich or Geneva, and easy access to Alpine recreation."
+      },
+      {
+        "type": "heading",
+        "label": "Chapel Bridge and Medieval Heritage"
+      },
+      {
+        "type": "text",
+        "label": "The Chapel Bridge (Kapellbrücke) is a 14th-century covered wooden footbridge and one of the oldest of its kind in Europe. Along with the Water Tower, it forms the iconic symbol of Lucerne. The Old Town features cobblestone streets, colorful merchant houses, and the Musegg Wall—a well-preserved medieval fortification with nine towers. Residents can walk through centuries of history daily, and the city maintains strict preservation standards to protect its architectural heritage."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Luzern_Kapellbruecke.jpg/640px-Luzern_Kapellbruecke.jpg",
+        "alt": "The Chapel Bridge with the Water Tower in Lucerne"
+      },
+      {
+        "type": "heading",
+        "label": "Mountains and Lake Lucerne"
+      },
+      {
+        "type": "text",
+        "label": "The canton provides immediate access to iconic peaks including Mount Pilatus, Rigi, and Titlis. Cable cars and cogwheel trains make mountain excursions accessible year-round. Lake Lucerne offers sailing, paddleboarding, and lakeside hiking trails. The region is also a gateway to central Swiss attractions like the Engelberg valley and the Brunig Pass. For outdoor enthusiasts, Lucerne combines urban convenience with Alpine adventure within minutes of the city center."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Esel-Pilatus_Kulm.jpg/640px-Esel-Pilatus_Kulm.jpg",
+        "alt": "Lake Lucerne with surrounding Alpine mountains"
+      }
+    ]
   },
   "TI": {
     "name": "Ticino",
-    "population": 353343,
-    "language": "italian",
-    "header": "https://s2.qwant.com/thumbr/474x269/c/b/1e72dc37c696b316171ad4337a4d7904cb312a3093a53aff1ffafddb0f5027/OIP.pt7tuQ0LM8S3k8oEFwzduwHaEN.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.pt7tuQ0LM8S3k8oEFwzduwHaEN%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 353000,
+    "languages": ["italian"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lugano_skyline_landscape_Ticino_Monte_Bre_Church_Of_San_Lorenzo.jpg/640px-Lugano_skyline_landscape_Ticino_Monte_Bre_Church_Of_San_Lorenzo.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Ticino"
+      },
+      {
+        "type": "text",
+        "label": "Ticino is the southernmost canton of Switzerland, bordering Italy. It is the only canton where Italian is the primary language, giving it a unique Mediterranean character within Switzerland. Known for its warm climate, stunning lakes, and relaxed lifestyle, Ticino attracts those seeking a blend of Swiss efficiency and Italian dolce vita. The region is particularly popular for retirees and remote workers drawn to its quality of life and lower cost of living compared to major urban centers."
+      },
+      {
+        "type": "heading",
+        "label": "Mediterranean Climate and Lakes"
+      },
+      {
+        "type": "text",
+        "label": "Ticino enjoys one of the warmest climates in Switzerland, with palm trees growing in cities like Locarno and Lugano. The canton is home to two major lakes: Lago Maggiore and Lago di Lugano, both offering beautiful waterfront promenades, boat trips, and swimming areas. The microclimate allows for olive groves and citrus fruits to thrive, creating a distinctly Southern European atmosphere. Summer temperatures often reach 30°C+, making it ideal for water sports and outdoor dining year-round."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Gandria%2C_Lago_di_Lugano_%26_Monte_San_Salvatore_%28Ticino%2C_2013%29.jpg/640px-Gandria%2C_Lago_di_Lugano_%26_Monte_San_Salvatore_%28Ticino%2C_2013%29.jpg",
+        "alt": "Lake Lugano"
+      },
+      {
+        "type": "heading",
+        "label": "Swiss-Italian Cultural Fusion"
+      },
+      {
+        "type": "text",
+        "label": "Ticino represents a unique cultural bridge between Switzerland and Italy. Residents enjoy Swiss infrastructure, banking, and public services combined with Italian cuisine, fashion, and lifestyle. The cuisine features polenta, risotto, and local wines alongside Swiss staples. Major cities like Bellinzona (the capital) and Lugano host international film festivals and cultural events. For expats, the bilingual environment (Italian and German/French) and proximity to Milan make Ticino an attractive base for European travel and business."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Castelgrande_Bellinzona.JPG/640px-Castelgrande_Bellinzona.JPG",
+        "alt": "Three medieval castles of Bellinzona, a UNESCO World Heritage site"
+      }
+    ]
   },
   "SO": {
     "name": "Solothurn",
-    "population": 276472,
-    "language": "swiss-german",
-    "header": "https://s1.qwant.com/thumbr/474x312/8/8/82e1f050cce56c524d4fff16cfbc7188ed285125e8535e4e1f7b88e1f9b12b/OIP.mI0wXEhSjX9tQQPpjO1ruwHaE4.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.mI0wXEhSjX9tQQPpjO1ruwHaE4%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 276000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Solothurn_2023.jpg/640px-Solothurn_2023.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Solothurn"
+      },
+      {
+        "type": "text",
+        "label": "Solothurn is located in northwestern Switzerland, nestled between Bern and Basel. Known as Switzerland's most Baroque city, Solothurn offers a quiet, historic atmosphere with excellent quality of life. The canton is smaller and less crowded than major urban centers, making it ideal for families and professionals seeking tranquility while maintaining good access to economic hubs. Its strategic location provides easy connections to both German-speaking and French-speaking regions."
+      },
+      {
+        "type": "heading",
+        "label": "The City of Eleven"
+      },
+      {
+        "type": "text",
+        "label": "Solothurn is famously known as the 'City of Eleven' due to its historical connection to the number 11: 11 churches, 11 fountains, 11 towers, and even 11 streets leading to the old town. This unique characteristic stems from the patron saint Saint Ursus and the city's historical ties to the Roman legion. The Baroque architecture is exceptionally well-preserved, with the St. Ursus Cathedral being the centerpiece. Walking through the Old Town feels like stepping back in time, with cobblestone streets and Renaissance palaces lining every corner."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Aare_und_St._Ursen_Kathedrale_in_Solothurn_%282014%29.jpg/640px-Aare_und_St._Ursen_Kathedrale_in_Solothurn_%282014%29.jpg",
+        "alt": "St. Ursus Cathedral in Solothurn's Old Town"
+      },
+      {
+        "type": "heading",
+        "label": "Jura Mountains and River Aare"
+      },
+      {
+        "type": "text",
+        "label": "The canton stretches from the Jura mountains to the Aare river, offering diverse landscapes for outdoor activities. The Aare flows through the city, providing swimming spots in summer and scenic walking paths year-round. The Jura foothills offer hiking trails, cross-country skiing in winter, and panoramic views of the Alps. With its rural character and proximity to Basel (30 minutes by train) and Bern (45 minutes), Solothurn balances peaceful living with urban accessibility. The canton also hosts several watchmaking factories, continuing Switzerland's tradition of precision craftsmanship."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Aarebr%C3%BCcke_Solothurn_220320.jpg/640px-Aarebr%C3%BCcke_Solothurn_220320.jpg",
+        "alt": "The Aare river flowing through Solothurn"
+      }
+    ]
   },
   "GR": {
     "name": "Graubünden",
-    "population": 201392,
-    "language": "swiss-german",
-    "header": "https://s2.qwant.com/thumbr/474x316/5/5/3da15357ce9961a8db71e7b3f547875f385da4c9caedc535f0cd19c6eceea5/OIP.LnXHxZUzMxO5ZKeLjYezqQHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.LnXHxZUzMxO5ZKeLjYezqQHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 201000,
+    "languages": ["swiss-german","italian"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Alp_Dado_Sura_boven_Breil-Brigels._%28actm%29_37.jpg/640px-Alp_Dado_Sura_boven_Breil-Brigels._%28actm%29_37.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Graubünden"
+      },
+      {
+        "type": "text",
+        "label": "Graubünden is the largest and easternmost canton of Switzerland, bordering Austria, Liechtenstein, and Italy. It is the only trilingual canton in Switzerland, with German, Romansh, and Italian as official languages. Known for its dramatic Alpine scenery, world-class ski resorts, and unique cultural heritage, Graubünden offers an exceptional lifestyle for those who love mountains and authentic Swiss traditions."
+      },
+      {
+        "type": "heading",
+        "label": "Alpine Paradise and Ski Resorts"
+      },
+      {
+        "type": "text",
+        "label": "Graubünden is home to some of Switzerland's most famous ski destinations including St. Moritz, Davos, Arosa, and Flims-Laax. The canton contains over 150 ski resorts connected by the extensive Rhaetian Railway network, a UNESCO World Heritage site. Beyond winter sports, the region offers year-round hiking, mountain biking, and climbing opportunities. The Engadin Valley, with its high-altitude lakes and crisp air, is particularly renowned for health tourism and wellness retreats."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/St_Moritz_Muottas.jpg/640px-St_Moritz_Muottas.jpg",
+        "alt": "St. Moritz and Lake St. Moritz in the Engadin Valley"
+      },
+      {
+        "type": "heading",
+        "label": "Trilingual Cultural Heritage"
+      },
+      {
+        "type": "text",
+        "label": "Graubünden is unique in Switzerland for having three official languages: German, Romansh, and Italian. Romansh is a Romance language descended from Latin, spoken by approximately 40,000 people primarily in the canton. The Rhaetian Railway connects remote valleys where each language community thrives. This linguistic diversity creates a rich cultural tapestry with distinct traditions, architecture, and cuisine in each region. For residents, this means exposure to multiple cultures within a single canton, making it intellectually stimulating and culturally rewarding."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2012-08-19_12-18-50_Switzerland_Kanton_Graub%C3%BCnden_Morteratsch.JPG/640px-2012-08-19_12-18-50_Switzerland_Kanton_Graub%C3%BCnden_Morteratsch.JPG",
+        "alt": "Rhaetian Railway crossing the Alpine landscape of Graubünden"
+      }
+    ]
   },
   "FR": {
     "name": "Fribourg",
-    "population": 327578,
-    "language": "french",
-    "header": "https://s2.qwant.com/thumbr/474x304/4/b/e95f4215b63553807ae6edb844f12da7eb5dad0ab838f8822ca8215b5159ca/OIP.OtzL-JPXfKjv7FSm6OvzdgHaEw.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.OtzL-JPXfKjv7FSm6OvzdgHaEw%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 327000,
+    "languages": ["french", "swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Panorama_Fribourg_107.JPG/640px-Panorama_Fribourg_107.JPG",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Fribourg"
+      },
+      {
+        "type": "text",
+        "label": "Fribourg is located in western Switzerland, straddling the linguistic boundary between German and French-speaking regions. As the only officially bilingual canton in Switzerland, it offers a unique cultural bridge between the two main language communities. Known for its medieval Old Town, dairy industry, and strong Catholic traditions, Fribourg provides a balanced lifestyle with moderate costs compared to major urban centers."
+      },
+      {
+        "type": "heading",
+        "label": "Bilingual Identity and Medieval Old Town"
+      },
+      {
+        "type": "text",
+        "label": "The city of Fribourg sits on a peninsula formed by the Sarine River, with its Old Town perched dramatically above the water. The medieval walls, towers, and cobblestone streets are remarkably preserved, offering residents a historic living environment. As a bilingual canton, all official documents, street signs, and public services are available in both German and French. This makes Fribourg ideal for those learning either language or working in roles requiring bilingual skills. The University of Fribourg is also notable for offering programs in both languages."
+      },
+      {
+        "type": "heading",
+        "label": "Dairy Country and Cheese Production"
+      },
+      {
+        "type": "text",
+        "label": "Fribourg is the heart of Swiss cheese production, home to the world-famous Gruyère cheese and the Vacherin Fribourgeois. The canton's rolling hills and pastures provide ideal conditions for dairy farming, with over 1,000 farms producing milk for renowned cheese factories. Visitors can tour cheese dairies, participate in fondue evenings, and attend local agricultural festivals. For residents, this means access to some of the finest dairy products in Switzerland, plus a strong rural economy that supports stable employment in food production and related industries."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Affinage_Gruy%C3%A8re_%28landscape%29.jpg/640px-Affinage_Gruy%C3%A8re_%28landscape%29.jpg",
+        "alt": "Gruyère cheese production in the Fribourg countryside"
+      }
+    ]
   },
   "BS": {
     "name": "Basel-Stadt",
-    "population": 195057,
-    "language": "swiss-german",
-    "header": "https://s1.qwant.com/thumbr/474x316/8/5/179266a4c1f77b6113c558dd6a90770239a793ba1dd5fac37ab028262ec5aa/OIP.-CHFnMVtzG9uanTItxGP2AHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.-CHFnMVtzG9uanTItxGP2AHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 195000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Basel_-_M%C3%BCnsterpfalz1.jpg/640px-Basel_-_M%C3%BCnsterpfalz1.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Basel-Stadt"
+      },
+      {
+        "type": "text",
+        "label": "Basel-Stadt is one of Switzerland's smallest cantons by area, consisting of the city of Basel and two small municipalities. Located at the tripoint where Switzerland, Germany, and France meet, it serves as a major cultural and economic hub. Known for its pharmaceutical industry, world-class museums, and vibrant arts scene, Basel-Stadt offers an urban lifestyle with international connectivity."
+      },
+      {
+        "type": "heading",
+        "label": "Pharmaceutical and Chemical Industry"
+      },
+      {
+        "type": "text",
+        "label": "Basel is home to the headquarters of Roche and Novartis, two of the world's largest pharmaceutical companies. The chemical and life sciences sector employs a significant portion of the local workforce and drives the canton's economic prosperity. This industrial strength translates to high salaries, research opportunities, and a highly educated population. The canton also hosts numerous biotech startups and research institutions, creating a dynamic innovation ecosystem."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Basel_-_Roche-Turm_mit_Stadtansicht_bei_Abendd%C3%A4mmerung.jpg/640px-Basel_-_Roche-Turm_mit_Stadtansicht_bei_Abendd%C3%A4mmerung.jpg",
+        "alt": "Roche Tower in Basel, headquarters of one of the world's largest pharmaceutical companies"
+      },
+      {
+        "type": "heading",
+        "label": "Museums and Cultural Capital"
+      },
+      {
+        "type": "text",
+        "label": "Despite its small size, Basel-Stadt has over 40 museums, more than any other Swiss city. Notable institutions include the Kunstmuseum (fine arts), Fondation Beyeler (contemporary art), and the Basel Historical Museum. The city hosts Art Basel, one of the world's premier art fairs, attracting collectors and galleries globally. The Rhine river divides the city into Grossbasel and Kleinbasel, each with distinct neighborhoods, restaurants, and nightlife. This cultural density makes Basel-Stadt ideal for art lovers and intellectuals."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Panorama_of_Rhine_river_in_Basel.jpg/640px-Panorama_of_Rhine_river_in_Basel.jpg",
+        "alt": "The Rhine river flowing through Basel with the city skyline"
+      }
+    ]
   },
   "BL": {
     "name": "Basel-Landschaft",
-    "population": 290540,
-    "language": "swiss-german",
-    "header": "https://s2.qwant.com/thumbr/474x266/e/b/f4804ea357f1096ebecf6fa7908b12a2771056f7654015032849934c31aee2/OIP.4uN_PUpHh48xZrIJ1-fnzQHaEK.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.4uN_PUpHh48xZrIJ1-fnzQHaEK%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 290000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Picswiss_BL-58-02.jpg/640px-Picswiss_BL-58-02.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Basel-Landschaft"
+      },
+      {
+        "type": "text",
+        "label": "Basel-Landschaft (Basel-Country) surrounds the city of Basel-Stadt and extends into the Jura mountains and Rhine valley. Created in 1833 when it separated from the former unified Basel canton, it offers a mix of suburban communities, rural villages, and industrial zones. The canton provides more affordable housing than Basel-Stadt while maintaining excellent access to the city's employment opportunities and amenities."
+      },
+      {
+        "type": "heading",
+        "label": "Suburban Living with Urban Access"
+      },
+      {
+        "type": "text",
+        "label": "Basel-Landschaft is popular among families and professionals who work in Basel-Stadt but prefer quieter residential areas. Towns like Liestal (the capital), Arlesheim, and Reinach offer good schools, parks, and community facilities. Public transport connections to Basel-Stadt are excellent, with frequent train and bus services. The canton also features shopping centers, sports facilities, and recreational areas. This balance makes it ideal for those seeking suburban comfort without sacrificing urban convenience."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Liestal.JPG/640px-Liestal.JPG",
+        "alt": "Liestal, the capital of Basel-Landschaft, with its historic Old Town"
+      },
+      {
+        "type": "heading",
+        "label": "Jura Mountains and Nature Reserves"
+      },
+      {
+        "type": "text",
+        "label": "The northern part of Basel-Landschaft extends into the Jura mountain range, offering hiking trails, cross-country skiing, and scenic viewpoints. The canton protects several nature reserves and wildlife areas, including the Birs Valley and various forested regions. The Birs river flows through the canton, creating green corridors for cycling and walking. For outdoor enthusiasts, Basel-Landschaft provides easy access to nature while remaining close to urban centers. The region also hosts several wineries and agricultural producers, contributing to local food culture."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Baselbieter_Solothurner_und_Aargauer_Jura_vom_Wisenberg.jpg/640px-Baselbieter_Solothurner_und_Aargauer_Jura_vom_Wisenberg.jpg",
+        "alt": "Jura mountains landscape in Basel-Landschaft"
+      }
+    ]
   },
   "TG": {
     "name": "Thurgau",
-    "population": 276472,
-    "language": "swiss-german",
-    "header": "https://s1.qwant.com/thumbr/474x266/9/a/d556ba8783843ed0ac307fc75b2835e37e419de31e0a0273470f1fd71ebc9a/OIP.s5opkwQjpip0jzOCMALH2QHaEK.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.s5opkwQjpip0jzOCMALH2QHaEK%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 276000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bahnhof_Erlen_%28Thurgau%29.jpg/640px-Bahnhof_Erlen_%28Thurgau%29.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Thurgau"
+      },
+      {
+        "type": "text",
+        "label": "Thurgau is located in northeastern Switzerland, bordering Germany and Lake Constance. Known as Switzerland's 'fruit garden' due to its extensive apple orchards, the canton offers a rural lifestyle with excellent economic opportunities. It's particularly attractive for those seeking affordable housing, good schools, and a family-friendly environment while maintaining easy access to Zurich and St. Gallen."
+      },
+      {
+        "type": "heading",
+        "label": "Apple Orchards and Agriculture"
+      },
+      {
+        "type": "text",
+        "label": "Thurgau produces over half of Switzerland's apples and is famous for its fruit cultivation. The landscape is dotted with orchards, vineyards, and agricultural fields that create a picturesque countryside. Apple picking in autumn is a popular activity for residents and tourists alike. The canton also hosts several distilleries producing fruit brandies (Obstler) and cider. This agricultural heritage creates a strong sense of community and seasonal traditions throughout the region."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Obstplantage_am_Bodensee_bei_Arbon.jpg/640px-Obstplantage_am_Bodensee_bei_Arbon.jpg",
+        "alt": "Apple orchards in bloom in the Thurgau countryside"
+      },
+      {
+        "type": "heading",
+        "label": "Lake Constance and Medieval Towns"
+      },
+      {
+        "type": "text",
+        "label": "The canton borders Lake Constance (Bodensee), offering beautiful waterfront recreation, cycling paths, and ferry connections to Germany. The capital, Frauenfeld, is a charming medieval town with well-preserved architecture. Nearby towns like Steckborn and Gottlieben feature historic castles and lakeside promenades. The region also includes the island of Reichenau, a UNESCO World Heritage site known for its medieval monastery and vegetable gardens. For residents, this means access to both rural tranquility and cultural heritage sites."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Reichenau_mit_St._Georg%2C_Untersee_%26_Allensbach_%282014%29.jpg/640px-Reichenau_mit_St._Georg%2C_Untersee_%26_Allensbach_%282014%29.jpg",
+        "alt": "Reichenau Island with its medieval monastery in Lake Constance"
+      }
+    ]
   },
   "VS": {
     "name": "Valais",
-    "population": 354578,
-    "language": "french",
-    "header": "https://s2.qwant.com/thumbr/474x189/f/1/f685b64fd02429d1ac86608fb1a4e0fe46ebec265e4e8545b8dae68147603c/OIP.mT-CiRyv2csWxE6S80VzKwHaC9.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.mT-CiRyv2csWxE6S80VzKwHaC9%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 354000,
+    "languages": ["french", "swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Val%C3%A8re_castle_in_Sion%2C_Switzerland%2C_Photo_by_Giles_Laurent.jpg/640px-Val%C3%A8re_castle_in_Sion%2C_Switzerland%2C_Photo_by_Giles_Laurent.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Valais"
+      },
+      {
+        "type": "text",
+        "label": "Valais is located in southwestern Switzerland, stretching from the Rhône valley to the highest peaks of the Alps. It is home to iconic mountains including the Matterhorn and Mont Blanc, as well as world-renowned ski resorts. The canton offers a unique combination of dry Alpine climate, extensive wine production, and spectacular natural scenery. It's particularly popular for outdoor enthusiasts, skiers, and those seeking a mountain lifestyle with modern amenities."
+      },
+      {
+        "type": "heading",
+        "label": "The Matterhorn and Alpine Peaks"
+      },
+      {
+        "type": "text",
+        "label": "Valais contains some of the most famous mountains in the world, including the Matterhorn (4,478m), Monte Rosa (4,634m), and Dom (4,545m). The region hosts major ski destinations like Zermatt, Verbier, Crans-Montana, and Saas-Fee, connected by extensive lift networks. Year-round glaciers allow for summer skiing in some areas. For residents, this means world-class winter sports within minutes of home, plus breathtaking scenery that defines the Swiss Alpine experience. Many international mountaineers and climbers choose Valais as their base."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/3802_-_Zermatt_-_Matterhorn_viewed_from_Gornergratbahn.JPG/640px-3802_-_Zermatt_-_Matterhorn_viewed_from_Gornergratbahn.JPG",
+        "alt": "The iconic Matterhorn peak viewed from Zermatt"
+      },
+      {
+        "type": "heading",
+        "label": "Wine Production and Dry Alpine Climate"
+      },
+      {
+        "type": "text",
+        "label": "Valais is Switzerland's largest wine-producing canton, benefiting from a dry, sunny climate in the Rhône valley. The region produces distinctive wines including Fendant (Chasselas), Petite Arvine, and Amigne. Terraced vineyards climb the steep slopes above the valley floor, creating a unique landscape. The canton also grows apricots, tomatoes, and other crops that thrive in the dry conditions. For residents, this means access to exceptional local wines, fresh produce, and a Mediterranean-influenced lifestyle despite the Alpine setting."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Clavau.jpg/640px-Clavau.jpg",
+        "alt": "Terraced vineyards along the Rhône valley in Valais"
+      }
+    ]
   },
   "NE": {
     "name": "Neuchâtel",
-    "population": 176809,
-    "language": "french",
-    "header": "https://s2.qwant.com/thumbr/474x316/e/0/945d7e6c36ef7bbe2f8ceb8f2bddda52478a887d26d68f768fa05160da29f1/OIP.fD3bS-OY2BlGBkbqt4avywHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.fD3bS-OY2BlGBkbqt4avywHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 176000,
+    "languages": ["french"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Vuevilledeneuchatel.jpg/640px-Vuevilledeneuchatel.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Neuchâtel"
+      },
+      {
+        "type": "text",
+        "label": "Neuchâtel is located in western Switzerland, on the shores of Lake Neuchâtel. Known for its watchmaking heritage, wine production, and French-speaking culture, the canton offers a refined lifestyle with strong industrial roots. It's particularly attractive for those seeking a quieter alternative to Geneva while maintaining access to international opportunities and excellent education."
+      },
+      {
+        "type": "heading",
+        "label": "Watchmaking Capital"
+      },
+      {
+        "type": "text",
+        "label": "Neuchâtel has been a center of Swiss watchmaking since the 18th century, hosting prestigious brands like Rolex, TAG Heuer, and Blancpain. The Watch Museum showcases centuries of horological innovation, and the region continues to produce high-end timepieces. This industry creates skilled employment opportunities and maintains Switzerland's reputation for precision engineering. For residents, this means access to world-class craftsmanship and a deep appreciation for mechanical artistry."
+      },
+      {
+        "type": "heading",
+        "label": "Lake Neuchâtel and Wine Regions"
+      },
+      {
+        "type": "text",
+        "label": "The canton borders Lake Neuchâtel, Switzerland's largest lake entirely within its borders. The shoreline features charming towns, cycling paths, and boat connections to neighboring regions. The Jura foothills produce excellent white wines, particularly Chasselas, with several vineyards offering tastings and tours. The combination of lake recreation and wine culture creates a relaxed lifestyle ideal for those who appreciate gastronomy and outdoor activities without the crowds of more tourist-heavy regions."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lac_de_neuchatel.jpg/640px-Lac_de_neuchatel.jpg",
+        "alt": "View of Lake Neuchâtel"
+      }
+    ]
   },
   "SZ": {
     "name": "Schwyz",
-    "population": 160914,
-    "language": "swiss-german",
-    "header": "https://s2.qwant.com/thumbr/474x280/d/2/922bd6a4335caa4a86798cb4dbd22cd380ba34815d38134e57d685baa75a1c/OIP.OjjSMbY_4vkaGJtZLoZZGwHaEY.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.OjjSMbY_4vkaGJtZLoZZGwHaEY%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 160000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Herrschaftsh%C3%A4user_in_Schwyz_vor_Alpenkulisse_%282022%29.jpg/640px-Herrschaftsh%C3%A4user_in_Schwyz_vor_Alpenkulisse_%282022%29.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Schwyz"
+      },
+      {
+        "type": "text",
+        "label": "Schwyz is located in central Switzerland and gives its name to the entire country (Schweiz/Suisse/Svizzera/Svizra). Known as the birthplace of Swiss independence, the canton offers deep historical significance combined with stunning Alpine scenery. It's particularly attractive for history enthusiasts and those seeking traditional Swiss culture with modern infrastructure and good access to Zurich."
+      },
+      {
+        "type": "heading",
+        "label": "Birthplace of Swiss Confederation"
+      },
+      {
+        "type": "text",
+        "label": "The canton of Schwyz is where the Swiss Confederation began in 1291, when representatives from Schwyz, Uri, and Unterwalden signed the Federal Charter. The town of Schwyz houses the Swiss National Museum and the Federal Charter Archive, preserving this foundational moment in Swiss history. Annual celebrations commemorate the founding, and the region maintains strong patriotic traditions. For residents, this means living in a place of profound national significance with well-preserved historical sites and museums."
+      },
+      {
+        "type": "heading",
+        "label": "Alpine Mountains and Lake Lucerne"
+      },
+      {
+        "type": "text",
+        "label": "The canton features dramatic Alpine peaks including the Mythen mountains and access to Lake Lucerne. The region offers excellent hiking trails, cable car access to mountain peaks, and traditional alpine farms. Winter sports are available at nearby resorts, while summer brings opportunities for climbing and mountain biking. The canton also benefits from proximity to Zurich (45 minutes by train), making it ideal for commuters who want mountain living with urban job access."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Grosser_Mythen_01.JPG/640px-Grosser_Mythen_01.JPG",
+        "alt": "The iconic Mythen mountains rising above the canton of Schwyz"
+      }
+    ]
   },
   "JU": {
     "name": "Jura",
-    "population": 73630,
-    "language": "french",
-    "header": "https://s1.qwant.com/thumbr/474x315/2/3/3be4f5e1912495460ad245a566db2fca285f1223f6137a985ae0598c812596/OIP.MU6l_v8_7pr0q-m2QgpFMgHaE7.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.MU6l_v8_7pr0q-m2QgpFMgHaE7%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 73000,
+    "languages": ["french"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Ch%C3%A2teau_Rosay_Jura_9.jpg/640px-Ch%C3%A2teau_Rosay_Jura_9.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Jura"
+      },
+      {
+        "type": "text",
+        "label": "Jura is the youngest canton in Switzerland, created in 1979 after a long political movement for separation from Bern. Located in the northwestern corner of the country, it is French-speaking and known for its watchmaking heritage, rolling Jura mountains, and tranquil rural lifestyle. The canton offers an affordable cost of living and a strong sense of regional identity, making it attractive for those seeking authenticity away from major urban centers."
+      },
+      {
+        "type": "heading",
+        "label": "Watchmaking Heritage"
+      },
+      {
+        "type": "text",
+        "label": "The Jura region has been a center of Swiss watchmaking since the 18th century, with towns like Delémont and Porrentruy hosting numerous watch manufacturers and suppliers. The canton continues to produce high-quality timepieces and components for prestigious brands. Several watch museums showcase the region's horological history, and apprenticeship programs ensure the craft is passed to new generations. For residents, this means access to skilled employment opportunities and a deep appreciation for precision craftsmanship that defines the local economy."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Jhurasa_Kampara_Muzeo_%28horloghista_ilaro%29_169.JPG/640px-Jhurasa_Kampara_Muzeo_%28horloghista_ilaro%29_169.JPG",
+        "alt": "Traditional watchmaking tools in the Jura region"
+      },
+      {
+        "type": "heading",
+        "label": "Jura Mountains and Outdoor Activities"
+      },
+      {
+        "type": "text",
+        "label": "The canton is named after the Jura mountain range, which offers extensive hiking trails, cross-country skiing routes, and scenic viewpoints. The region features rolling hills, forests, and limestone formations typical of the Jura landscape. Popular activities include mountain biking, paragliding, and exploring caves. The capital, Delémont, sits in a valley surrounded by mountains, providing easy access to nature while maintaining urban amenities. For outdoor enthusiasts, Jura offers tranquility and natural beauty without the crowds of more tourist-heavy Alpine regions."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jura_landscape.jpg/640px-Jura_landscape.jpg",
+        "alt": "Hiking trails in the Jura mountains with forested hills"
+      }
+    ]
   },
   "ZG": {
     "name": "Zug",
-    "population": 127849,
-    "language": "swiss-german",
-    "header": "https://s2.qwant.com/thumbr/474x313/c/f/87f425908b1006e53a3f0693fe6e6f5a9999d210245859c56aa196c193fb6d/OIP.4oCwc9R5MKaagf7qZNOdUAHaE5.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.4oCwc9R5MKaagf7qZNOdUAHaE5%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 127000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/CH.ZG.Zug_View_from_Guggi_01_16x9%2BR_8192x4608_Br058_gp_denoising_Br075.jpg/640px-CH.ZG.Zug_View_from_Guggi_01_16x9%2BR_8192x4608_Br058_gp_denoising_Br075.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Zug"
+      },
+      {
+        "type": "text",
+        "label": "Zug is one of Switzerland's smallest cantons by area, located between Zurich and Lucerne. Known for its extremely low tax rates and business-friendly environment, it has attracted numerous international corporations and cryptocurrency companies. Despite its small size, Zug offers high quality of life, excellent infrastructure, and stunning lakeside scenery. It's particularly popular among entrepreneurs, digital nomads, and professionals seeking tax optimization while maintaining Swiss standards."
+      },
+      {
+        "type": "heading",
+        "label": "Crypto Valley and Business Hub"
+      },
+      {
+        "type": "text",
+        "label": "Zug is nicknamed 'Crypto Valley' due to its concentration of blockchain and cryptocurrency companies, including the Ethereum Foundation and numerous startups. The canton's favorable regulatory framework and low corporate taxes have made it a global hub for digital assets. Beyond crypto, Zug hosts headquarters for many multinational corporations seeking tax efficiency. For residents, this creates a dynamic, international business environment with networking opportunities and access to cutting-edge technology sectors."
+      },
+      {
+        "type": "heading",
+        "label": "Lake Zug and Scenic Beauty"
+      },
+      {
+        "type": "text",
+        "label": "The canton borders Lake Zug, offering beautiful waterfront promenades, swimming areas, and boat connections to neighboring towns. The city of Zug itself features a well-preserved Old Town with medieval walls, colorful buildings, and the iconic Zytturm clock tower. Surrounded by mountains including the Rigi and Zugerberg, the region provides excellent hiking and skiing opportunities. With its compact size, residents can enjoy urban amenities while being minutes away from nature. The canton also benefits from proximity to Zurich (30 minutes by train), combining business opportunities with lakeside tranquility."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Lake_Zug-01ASD.jpg/640px-Lake_Zug-01ASD.jpg",
+        "alt": "Lake Zug in the background"
+      }
+    ]
   },
   "SH": {
     "name": "Schaffhausen",
-    "population": 83197,
-    "language": "swiss-german",
-    "header": "https://s2.qwant.com/thumbr/474x266/e/3/450541ceb70df65d311843e11843f1e95e62047d35a075892841881957d9e8/OIP.jZ0HOZikZtAPBbI9lDNg3AHaEK.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.jZ0HOZikZtAPBbI9lDNg3AHaEK%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 83000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Schaffhausen_-_Rhein_-_Feuerthalen_IMG_9847.JPG/640px-Schaffhausen_-_Rhein_-_Feuerthalen_IMG_9847.JPG",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Schaffhausen"
+      },
+      {
+        "type": "text",
+        "label": "Schaffhausen is located in northern Switzerland, bordering Germany. Known for its impressive Rhine Falls (Europe's largest waterfall) and well-preserved medieval Old Town, the canton offers a unique blend of natural wonders and historical charm. It's particularly attractive for those seeking a quieter lifestyle with easy access to both Swiss and German employment markets."
+      },
+      {
+        "type": "heading",
+        "label": "Rhine Falls - Europe's Largest Waterfall"
+      },
+      {
+        "type": "text",
+        "label": "The Rhine Falls (Rheinfall) is Europe's most powerful waterfall, with water flowing at up to 600,000 liters per second. Located just outside Schaffhausen city, it attracts over a million visitors annually. Residents can enjoy boat trips to the central rock, viewing platforms, and the nearby Schloss Laufen museum. The falls create a dramatic natural backdrop and offer year-round recreation including swimming in calmer sections during summer months."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Chutes_du_Rhin_-_Octobre_2021.jpg/640px-Chutes_du_Rhin_-_Octobre_2021.jpg",
+        "alt": "The Rhine Falls with water cascading powerfully over the rocks"
+      },
+      {
+        "type": "heading",
+        "label": "Medieval Old Town and Minster"
+      },
+      {
+        "type": "text",
+        "label": "Schaffhausen's Old Town features one of the most beautiful painted facades in Switzerland, with over 100 historic buildings adorned with frescoes from the 16th to 18th centuries. The Munster (cathedral) offers panoramic views of the Rhine and Germany beyond. The city maintains strict preservation standards, ensuring residents live among authentic medieval architecture. Regular cultural events, markets, and festivals celebrate this heritage throughout the year."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/1_schaffhausen_2012.jpg/640px-1_schaffhausen_2012.jpg",
+        "alt": "Colorful painted facades in Schaffhausen's medieval Old Town"
+      }
+    ]
   },
   "AR": {
     "name": "Appenzell Ausserrhoden",
-    "population": 55234,
-    "language": "swiss-german",
-    "header": "https://s2.qwant.com/thumbr/474x357/d/a/cdc5a09cf789878cfcce7d7c4c33d0aa32c544b49b341bb39f6c76a94d4fbd/OIP.END-jMeKBjECW47_UzkTnAHaFl.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.END-jMeKBjECW47_UzkTnAHaFl%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 55000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Appenzell%2C_Switzerland.jpg/640px-Appenzell%2C_Switzerland.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Appenzell Ausserrhoden"
+      },
+      {
+        "type": "text",
+        "label": "Appenzell Ausserrhoden (Outer Rhodes) is located in northeastern Switzerland, split into several non-contiguous territories. Known for its traditional Alpine culture, painted farmhouses, and progressive social policies, the canton offers an authentic Swiss rural experience. It's particularly attractive for those seeking traditional mountain life with modern amenities and reasonable housing costs compared to urban centers."
+      },
+      {
+        "type": "heading",
+        "label": "Traditional Painted Farmhouses"
+      },
+      {
+        "type": "text",
+        "label": "The canton is famous for its beautifully decorated farmhouses featuring intricate frescoes depicting biblical scenes, floral motifs, and local legends. These paintings, often dating back centuries, are protected by heritage laws and maintained by local families. The town of Herisau (administrative capital) and surrounding villages showcase this unique architectural tradition. For residents, this means living in a visually stunning environment where cultural preservation is taken seriously."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Walzenhausen_Leuchen_429.jpg/640px-Walzenhausen_Leuchen_429.jpg",
+        "alt": "Traditional painted farmhouse in Appenzell"
+      },
+      {
+        "type": "heading",
+        "label": "Alpine Pastures and Yodeling Culture"
+      },
+      {
+        "type": "text",
+        "label": "Appenzell Ausserrhoden maintains strong Alpine traditions including seasonal cattle drives (Alpabzug), yodeling, and traditional music. The rolling hills and pastures provide excellent hiking trails and grazing land for dairy cattle. Local cheese production continues using traditional methods, and annual folk festivals celebrate the region's cultural heritage. The canton also has a progressive reputation, being one of the first to grant women voting rights at the cantonal level in 1989."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Appenzell_%2827621114895%29.jpg/640px-Appenzell_%2827621114895%29.jpg",
+        "alt": "Green Alpine pastures with traditional Appenzell farmhouses"
+      }
+    ]
   },
   "AI": {
     "name": "Appenzell Innerrhoden",
-    "population": 16003,
-    "language": "swiss-german",
-    "header": "https://s2.qwant.com/thumbr/474x316/4/c/6b05619545d103f4bb19f017a723bb181f083b0df9a79a1bc851d58955d1b5/OIP.t1rYE9RWJTp3dTjAwkpUuQHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.t1rYE9RWJTp3dTjAwkpUuQHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 16000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Adlerplatz_in_Appenzell_%282017%29.jpg/640px-Adlerplatz_in_Appenzell_%282017%29.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Appenzell Innerrhoden"
+      },
+      {
+        "type": "text",
+        "label": "Appenzell Innerrhoden (Inner Rhodes) is one of Switzerland's smallest and most traditional cantons, located in northeastern Switzerland. Known for preserving ancient democratic practices and Alpine culture, it offers an authentic glimpse into Switzerland's rural heritage. The canton is particularly attractive for those seeking tranquility, traditional mountain life, and a strong sense of community away from modern urban pressures."
+      },
+      {
+        "type": "heading",
+        "label": "Landsgemeinde - Ancient Direct Democracy"
+      },
+      {
+        "type": "text",
+        "label": "Appenzell Innerrhoden is one of only two cantons that still practice Landsgemeinde, an open-air assembly where citizens gather annually to vote on laws and elect officials by raising hands. This medieval democratic tradition dates back centuries and represents one of the last surviving examples of direct democracy in Switzerland. The event takes place in Appenzell town square, drawing participants from across the canton. For residents, this means active participation in governance and a living connection to Switzerland's democratic roots."
+      },
+      {
+        "type": "heading",
+        "label": "Alpine Traditions and Folk Culture"
+      },
+      {
+        "type": "text",
+        "label": "The canton maintains strong Alpine traditions including traditional costumes, folk music, and yodeling. The annual Alpabzug (cattle drive) sees decorated cows being brought down from mountain pastures in autumn, accompanied by brass bands and festive celebrations. Local cheese production continues using centuries-old methods, and the region is known for its distinctive Appenzeller cheese. For residents, this means immersion in living cultural traditions that have remained largely unchanged for generations."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Almabtrieb_2019%2C_Schwarzenberg%2C_B%C3%B6hringer_01.jpg/640px-Almabtrieb_2019%2C_Schwarzenberg%2C_B%C3%B6hringer_01.jpg",
+        "alt": "Traditional Alpabzug cattle drive with decorated cows in Appenzell"
+      }
+    ]
   },
   "GL": {
     "name": "Glarus",
     "population": 40500,
-    "language": "swiss-german",
-    "header": "https://s2.qwant.com/thumbr/474x316/4/5/67c9a9378622a1a847b4f2584a1208f8068fafc8029ecb9fda7c590acc59d2/OIP.utwtgis7lp7ce-4Ie7I0OAHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.utwtgis7lp7ce-4Ie7I0OAHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Glarus_Panorama.jpg/640px-Glarus_Panorama.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Glarus"
+      },
+      {
+        "type": "text",
+        "label": "Glarus is located in eastern Switzerland, nestled in a narrow valley surrounded by steep Alpine peaks. Known for its industrial heritage, progressive social policies, and stunning natural scenery, the canton offers a unique blend of working-class history and environmental consciousness. It's particularly attractive for those seeking affordable housing, strong community bonds, and immediate access to dramatic mountain landscapes."
+      },
+      {
+        "type": "heading",
+        "label": "Industrial Heritage and Textile History"
+      },
+      {
+        "type": "text",
+        "label": "Glarus was a major center of Switzerland's textile industry during the 19th century, with factories lining the Linth river. While the industry has declined, the canton preserves this heritage through museums and restored factory buildings. The region transitioned successfully to diversified manufacturing and services, maintaining strong employment rates. The Glarus Valley also features the Linth River correction project from the 19th century, an engineering marvel that transformed flood-prone land into productive territory. For residents, this means living in a region with proud industrial roots and successful economic adaptation."
+      },
+      {
+        "type": "heading",
+        "label": "Dramatic Alpine Valley and Nature"
+      },
+      {
+        "type": "text",
+        "label": "The canton is dominated by the Glarus Alps, with peaks exceeding 3,000 meters including the Tödi (3,614m). The narrow valley floor is surrounded by steep cliffs, creating a dramatic landscape ideal for hiking, climbing, and mountaineering. The Klausen Pass connects Glarus to Uri, offering spectacular driving and cycling routes. In winter, the region provides skiing and snowshoeing opportunities. The canton also pioneered environmental protection, with strict regulations preserving water quality and natural habitats. For outdoor enthusiasts, Glarus offers pristine Alpine environments with fewer crowds than more tourist-heavy regions."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Toedi_vidita_de_Schwaendi_083.jpg/640px-Toedi_vidita_de_Schwaendi_083.jpg",
+        "alt": "Glarus Valley with steep Alpine peaks rising on both sides"
+      }
+    ]
   },
   "NW": {
     "name": "Nidwalden",
-    "population": 43223,
-    "language": "swiss-german",
-    "header": "https://s1.qwant.com/thumbr/474x316/8/9/afed8dae61c86b1e63daa54129e73c86990d0567887deef74fa89e60fb0856/OIP.ONQQkComg3VbJUzzsc8gxgHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.ONQQkComg3VbJUzzsc8gxgHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 43000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Emmetten%2C_Canton_Nidvaldo.jpg/640px-Emmetten%2C_Canton_Nidvaldo.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Nidwalden"
+      },
+      {
+        "type": "text",
+        "label": "Nidwalden is one of Switzerland's smallest cantons, located in central Switzerland along Lake Lucerne. As a half-canton (alongside Obwalden), it shares historical ties dating back to the original Swiss Confederation. Known for its strong economy, low unemployment, and picturesque Alpine scenery, Nidwalden offers a quiet lifestyle with excellent access to major urban centers."
+      },
+      {
+        "type": "heading",
+        "label": "Strong Economy and Low Taxes"
+      },
+      {
+        "type": "text",
+        "label": "Nidwalden boasts one of the lowest unemployment rates in Switzerland and a robust local economy driven by manufacturing, tourism, and services. The canton maintains competitive tax rates compared to neighboring regions, attracting both businesses and residents. Major employers include aviation and precision manufacturing companies. For residents, this means stable employment opportunities and a favorable fiscal environment while enjoying a high quality of life."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Ennetbuergen-Buochs-Beckenried-Klewenalp-Fronalpstock-Niederbauenstock-Lake_Lucerne-02ASD.jpg/640px-Ennetbuergen-Buochs-Beckenried-Klewenalp-Fronalpstock-Niederbauenstock-Lake_Lucerne-02ASD.jpg",
+        "alt": "Lake Lucerne coastline in Nidwalden with Alpine mountains in the background"
+      },
+      {
+        "type": "heading",
+        "label": "Stans and Pilatus Mountain"
+      },
+      {
+        "type": "text",
+        "label": "The capital, Stans, is a charming medieval town with well-preserved historic buildings and the iconic St. Nikolaus Church. The canton provides direct access to Mount Pilatus, one of Switzerland's most accessible peaks via cogwheel railway and cable car. Pilatus offers year-round activities including hiking, skiing, and panoramic viewpoints. The region also features numerous hiking trails connecting villages and mountain huts, making it ideal for outdoor enthusiasts who value convenience and natural beauty."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Luzern_-_Mount_Pilatus_-_March_2019_%2801%29.jpg/640px-Luzern_-_Mount_Pilatus_-_March_2019_%2801%29.jpg",
+        "alt": "Mount Pilatus viewed from Nidwalden with its distinctive rocky peaks"
+      }
+    ]
   },
   "OW": {
     "name": "Obwalden",
-    "population": 37346,
-    "language": "swiss-german",
-    "header": "https://s1.qwant.com/thumbr/474x266/9/c/53c8a81a7d1cf3fcbfe7673a5f051e469faeb703e6a6c12f2a54518665f528/OIP.ns4AjukrIFBScTmreT7ktAHaEK.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.ns4AjukrIFBScTmreT7ktAHaEK%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "population": 37000,
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Steinenstrasse_21_in_Sachseln_OW_%282017%29.jpg/640px-Steinenstrasse_21_in_Sachseln_OW_%282017%29.jpg",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Obwalden"
+      },
+      {
+        "type": "text",
+        "label": "Obwalden is a half-canton located in central Switzerland, sharing historical origins with Nidwalden. Known for its pristine Alpine environment, traditional agriculture, and strong sense of community, Obwalden offers an authentic rural Swiss experience. It's particularly attractive for those seeking tranquility, clean air, and direct access to untouched mountain landscapes away from mass tourism."
+      },
+      {
+        "type": "heading",
+        "label": "Engelberg Valley and Monastery"
+      },
+      {
+        "type": "text",
+        "label": "The Engelberg Valley is Obwalden's most famous destination, home to a Benedictine monastery founded in 1120 that remains active today. The valley serves as a major ski resort with access to Mount Titlis, featuring Europe's first rotating cable car. Beyond winter sports, Engelberg offers summer hiking, mountain biking, and glacier excursions. The monastery hosts cultural events and maintains a library with historic manuscripts. For residents, this means living near world-class recreation while preserving religious and cultural heritage."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Titlis_Cliff_Walk.jpg/640px-Titlis_Cliff_Walk.jpg",
+        "alt": "Mount Titlis in the background"
+      },
+      {
+        "type": "heading",
+        "label": "Traditional Agriculture and Alpine Pastures"
+      },
+      {
+        "type": "text",
+        "label": "Obwalden maintains strong agricultural traditions with numerous family-run farms producing dairy products, cheese, and meat. The Alpine pastures (Alpen) are still used seasonally for cattle grazing, continuing centuries-old practices. Local cheese production includes specialty varieties unique to the region. The canton protects its rural character through zoning laws that limit development and preserve farmland. For residents, this means access to fresh, locally-produced food and a slower pace of life rooted in agricultural cycles."
+      }
+    ]
   },
   "UR": {
     "name": "Uri",
     "population": 36500,
-    "language": "swiss-german",
-    "header": "https://s2.qwant.com/thumbr/474x316/6/d/a85cd88963b90364470139b74f98a9282a2c2d905310a93949d185747c7d1e/OIP.EzmZiirWvIMerJ77p81bdwHaE8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.EzmZiirWvIMerJ77p81bdwHaE8%3Fpid%3DApi&q=0&b=1&p=0&a=0",
-    "content": []
+    "languages": ["swiss-german"],
+    "header": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Arnisee_Lake.JPG/640px-Arnisee_Lake.JPG",
+    "content": [
+      {
+        "type": "heading",
+        "label": "Canton of Uri"
+      },
+      {
+        "type": "text",
+        "label": "Uri is located in central Switzerland and is one of the three founding cantons of the Swiss Confederation (alongside Schwyz and Unterwalden). Known for its dramatic Alpine geography, the Gotthard Pass, and legendary William Tell folklore, Uri offers deep historical significance combined with spectacular mountain scenery. It's particularly attractive for history enthusiasts and outdoor adventurers seeking authentic Swiss culture."
+      },
+      {
+        "type": "heading",
+        "label": "William Tell and Swiss Independence"
+      },
+      {
+        "type": "text",
+        "label": "Uri is the homeland of William Tell, the legendary hero who symbolized Swiss resistance against foreign rule in the early 14th century. The town of Altdorf features the William Tell Monument and annual festivals commemorating the legend. The canton also houses the Federal Charter Museum in nearby Schwyz, documenting the 1291 founding of the Confederation. For residents, this means living in a region of profound national importance with preserved historical sites and ongoing cultural celebrations honoring Swiss independence."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/2019_Tell_Monument_Statue_%28Telldenkmal%29_Altdorf_Uri_Switzerland_Ank_Kumar_Infosys_Limited_09.png/640px-2019_Tell_Monument_Statue_%28Telldenkmal%29_Altdorf_Uri_Switzerland_Ank_Kumar_Infosys_Limited_09.png",
+        "alt": "William Tell Monument in Altdorf, Uri"
+      },
+      {
+        "type": "heading",
+        "label": "Gotthard Pass and Alpine Transit"
+      },
+      {
+        "type": "text",
+        "label": "Uri contains the historic Gotthard Pass, one of the most important Alpine crossings connecting northern and southern Europe. The modern Gotthard Base Tunnel (world's longest railway tunnel) runs beneath the canton, facilitating efficient transit. The Reuss River flows through the valley, offering rafting and fishing opportunities. The Schellenen Gorge features the iconic Teufelsbrücke (Devil's Bridge), a historic stone bridge with dramatic views. For residents, this means access to world-class infrastructure while maintaining a relatively quiet, rural lifestyle away from heavy traffic corridors."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/%22Gotthard-pass_2016_m%22_%282025-08-11%29.jpg/640px-%22Gotthard-pass_2016_m%22_%282025-08-11%29.jpg",
+        "alt": "Gotthard Pass road winding through the Uri Alps"
+      }
+    ]
   }
 }

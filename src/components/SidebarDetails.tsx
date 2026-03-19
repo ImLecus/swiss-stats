@@ -9,6 +9,19 @@ const SidebarDetails = (props: {visible: boolean, canton: string} ) => {
     const info : Canton = getCanton(props.canton);
     const context = useContext(InfoContext);
 
+    function getLanguageEmoji(language: string){
+        switch(language){
+            case "swiss-german":
+                return "🇩🇪";
+            case "french":
+                return "🇫🇷";
+            case "italian":
+                return "🇮🇹";
+            default:
+                return "❔"
+        }
+    }
+
     return (
         <aside id="sidebar-info" style={{transform: props.visible ? "translateX(0)" : "translateX(-120%)"}}>
             <div className="sidebar-return" onClick={() => context?.setVisible(false)}>
@@ -24,11 +37,17 @@ const SidebarDetails = (props: {visible: boolean, canton: string} ) => {
                 <h2>{info?.name}</h2>
                 <div className="sidebar-item">
                     <h4>Population:</h4>
-                    <p>{info?.population}</p>
+                    <p>~{info?.population} citizens</p>
                 </div>
                 <div className="sidebar-item">
                     <h4>Languages:</h4>
-                    <p>{info?.language}</p>
+                    <div>
+                        {
+                            info?.languages.map(lang => 
+                                <p>{getLanguageEmoji(lang)}</p>
+                            )
+                        }
+                    </div>
                 </div>
                 {
                     info?.content.map(e => renderCantonElement(e))

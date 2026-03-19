@@ -4,7 +4,7 @@ import cantons from "../assets/canton-info.json";
 export interface Canton {
     name: string,
     population: number,
-    language: string,
+    languages: string[],
     header: string | null,
     content: Element[],
 }
